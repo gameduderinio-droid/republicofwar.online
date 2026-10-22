@@ -1,0 +1,2655 @@
+{
+    "cards":  [
+                  {
+                      "card":  "Battlefield Dominance",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "more-objectives-early",
+                                         "label":  "Control more objectives than your opponent",
+                                         "roundMin":  1,
+                                         "roundMax":  2,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  2,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "objectives-controlled",
+                                         "label":  "Count objectives you control",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "count",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Objectives you control",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+                                                     {
+                                                         "id":  "non-home-while-holding-home",
+                                                         "label":  "Of those, non-home objectives while you also control your home",
+                                                         "kind":  "count",
+                                                         "vp":  2,
+                                                         "counterLabel":  "Those objectives (excl. home), if you control your home"
+                                                     }
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Determined Acquisition",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "newly-taken-objectives",
+                                         "label":  "Count objectives taken this turn (excl. home)",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  2,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Objectives you control but did not at start of turn (excl. home)",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "objectives-controlled",
+                                         "label":  "Count objectives you control",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "count",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Objectives you control",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+                                                     {
+                                                         "id":  "in-enemy-territory",
+                                                         "label":  "Of those, objectives within your opponent\u0027s territory",
+                                                         "kind":  "count",
+                                                         "vp":  3,
+                                                         "counterLabel":  "Those objectives in opponent\u0027s territory"
+                                                     }
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Immovable Object",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "central-objective",
+                                         "label":  "Control one or more central objectives",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "objectives-mid",
+                                         "label":  "Count objectives you control (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  4,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "count",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Objectives you control (excl. home)",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "objectives-fifth",
+                                         "label":  "Count objectives you control (excl. home)",
+                                         "roundMin":  5,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Objectives you control (excl. home)",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Inescapable Dominion",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "three-plus-objectives",
+                                         "label":  "Control three or more objectives",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "two-plus-objectives",
+                                         "label":  "Control two or more objectives",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "more-than-opponent",
+                                         "label":  "Control more objectives than your opponent",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "enemy-home-eob",
+                                         "label":  "Control your opponent\u0027s home objective",
+                                         "roundMin":  5,
+                                         "roundMax":  5,
+                                         "endOfBattle":  true,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Purge and Secure",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "kill-near-objectives",
+                                         "label":  "Enemy slain by a unit near an objective, or slain after starting near one",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "objectives-controlled",
+                                         "label":  "Count objectives you control (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "count",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Objectives you control (excl. home)",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "newly-taken-objective",
+                                         "label":  "Control an objective you did not control at start of turn (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Consecrate",
+                      "variant":  "primary",
+                      "special":  "Units that destroy a unit become consecration units; at end of your turn each may consecrate one objective in range (excl. home) with an operation marker.",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "consecrated-tier",
+                                         "label":  "Objectives consecrated",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "tier",
+                                         "vp":  0,
+                                         "tiers":  [
+                                                       {
+                                                           "vp":  3,
+                                                           "label":  "One or two objectives consecrated"
+                                                       },
+                                                       {
+                                                           "vp":  6,
+                                                           "label":  "Three or more objectives consecrated"
+                                                       }
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "control-non-home",
+                                         "label":  "Control one or more objectives (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "more-than-opponent",
+                                         "label":  "Control more objectives than your opponent",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "enemy-home-consecrated-eob",
+                                         "label":  "Opponent\u0027s home objective is consecrated",
+                                         "roundMin":  5,
+                                         "roundMax":  5,
+                                         "endOfBattle":  true,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Destroyer\u0027s Wrath",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "enemy-destroyed",
+                                         "label":  "One or more enemy units destroyed this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "control-non-home",
+                                         "label":  "Control one or more objectives (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "more-than-opponent",
+                                         "label":  "Control more objectives than your opponent",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  6,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "kill-trade-up",
+                                         "label":  "More enemy killed this turn than friendly killed last turn",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Meatgrinder",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "enemy-destroyed",
+                                         "label":  "One or more enemy units destroyed this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "control-non-home",
+                                         "label":  "Control one or more objectives (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "kill-trade-up",
+                                         "label":  "More enemy killed this turn than friendly killed last turn",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "enemy-home",
+                                         "label":  "Control your opponent\u0027s home objective",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Punishment",
+                      "variant":  "primary",
+                      "special":  "Start of your turn: condemn 1-3 enemy units near objectives and/or that killed friendlies last turn (else any one enemy unit) until your next turn.",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "condemned-left",
+                                         "label":  "A condemned enemy unit left the battlefield this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "control-non-home",
+                                         "label":  "Control one or more objectives (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "more-than-opponent",
+                                         "label":  "Control more objectives than your opponent",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "enemy-home-eob",
+                                         "label":  "Control your opponent\u0027s home objective",
+                                         "roundMin":  5,
+                                         "roundMax":  5,
+                                         "endOfBattle":  true,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  8,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Unstoppable Force",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "enemy-destroyed",
+                                         "label":  "One or more enemy units destroyed this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "objectives-controlled",
+                                         "label":  "Count objectives you control (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "count",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Objectives you control (excl. home)",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "newly-taken-objective",
+                                         "label":  "Control an objective you did not control at start of turn (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "central-eob",
+                                         "label":  "Control one or more central objectives",
+                                         "roundMin":  5,
+                                         "roundMax":  5,
+                                         "endOfBattle":  true,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Gather Intel",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "Extract Intelligence",
+                      "actionText":  "STARTS: Your Shooting phase, from the second battle round onwards.\nUNITS: One unit in range of one objective (excl. home) with none of your operation markers in range of it.\nUSE LIMIT: Unlimited; each unit this phase must be in range of a different objective.\nCOMPLETES: End of your turn, if your unit controls that objective.\nEFFECT: Place one of your operation markers within range of that objective.",
+                      "blocks":  [
+                                     {
+                                         "id":  "r1-central",
+                                         "label":  "Control one or more central objectives",
+                                         "roundMin":  1,
+                                         "roundMax":  1,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  6,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "hold-one",
+                                         "label":  "Control an objective (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "extract-intel",
+                                         "label":  "Units that completed Extract Intelligence this turn",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  7,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Units completing Extract Intelligence this turn",
+                                         "maxVp":  0,
+                                         "isAction":  true,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "eob-three-markers",
+                                         "label":  "Three or more of your operation markers on the battlefield",
+                                         "roundMin":  5,
+                                         "roundMax":  5,
+                                         "endOfBattle":  true,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "eob-marker-enemy-home",
+                                         "label":  "Your operation marker in range of opponent\u0027s home objective",
+                                         "roundMin":  5,
+                                         "roundMax":  5,
+                                         "endOfBattle":  true,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Reconnaissance Sweep",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "quarters",
+                                         "label":  "Units spread across table quarters, none within 6\" of centre",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "tier",
+                                         "vp":  0,
+                                         "tiers":  [
+                                                       {
+                                                           "vp":  3,
+                                                           "label":  "3+ friendly units wholly in three different quarters"
+                                                       },
+                                                       {
+                                                           "vp":  6,
+                                                           "label":  "4+ friendly units wholly in four different quarters"
+                                                       }
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "kills",
+                                         "label":  "Enemy units destroyed this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  1,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Enemy units destroyed this turn",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "hold-one",
+                                         "label":  "Control an objective (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Search and Scour",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "central",
+                                         "label":  "Control one or more central objectives",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "terrain-kill",
+                                         "label":  "Enemy unit that started the turn in a terrain area destroyed",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  2,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "hold-each",
+                                         "label":  "Objectives you control (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "count",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Objectives you control (excl. home)",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "eob-clear-territory",
+                                         "label":  "No enemy units wholly within your territory",
+                                         "roundMin":  5,
+                                         "roundMax":  5,
+                                         "endOfBattle":  true,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Surveil the Foe",
+                      "variant":  "primary",
+                      "special":  "Friendly unit ending a move in range of an objective removes enemy operation markers in range of it.",
+                      "actionName":  "Surveil the Foe",
+                      "actionText":  "STARTS: Your Shooting phase.\nUNITS: One friendly unit.\nUSE LIMIT: Unlimited.\nCOMPLETES: Immediately.\nEFFECT: Select one enemy unit within 18\" and visible, not yet surveilled this turn - it is surveilled until end of turn.",
+                      "blocks":  [
+                                     {
+                                         "id":  "surveilled",
+                                         "label":  "Enemy surveilled this turn (not all shielded by markers)",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  true,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "hold-one",
+                                         "label":  "Control an objective (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "hold-more",
+                                         "label":  "Control more objectives than your opponent",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "no-enemy-markers",
+                                         "label":  "No enemy operation markers on the battlefield",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Triangulation",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "Triangulate",
+                      "actionText":  "STARTS: Your Shooting phase, from the second battle round onwards.\nUNITS: One friendly unit in range of one objective (excl. home).\nUSE LIMIT: Once per turn.\nCOMPLETES: End of your turn, if your unit controls that objective.\nEFFECT: That objective is triangulated - place one of your operation markers in range of it.",
+                      "blocks":  [
+                                     {
+                                         "id":  "hold-one",
+                                         "label":  "Control an objective (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "triangulated",
+                                         "label":  "Objectives triangulated",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "tier",
+                                         "vp":  0,
+                                         "tiers":  [
+                                                       {
+                                                           "vp":  3,
+                                                           "label":  "One objective triangulated"
+                                                       },
+                                                       {
+                                                           "vp":  6,
+                                                           "label":  "Two objectives triangulated"
+                                                       },
+                                                       {
+                                                           "vp":  10,
+                                                           "label":  "Three or more objectives triangulated"
+                                                       }
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "eob-four-objectives",
+                                         "label":  "Control four or more objectives",
+                                         "roundMin":  5,
+                                         "roundMax":  5,
+                                         "endOfBattle":  true,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  10,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Extract Relic",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "Sensor Sweep",
+                      "actionText":  "STARTS: Your Shooting phase.\nUNITS: One friendly unit in range of one central objective.\nUSE LIMIT: Once per turn.\nCOMPLETES: End of your turn, if your unit controls that objective.\nEFFECT: Remove one operation marker from the battlefield. RESTRICTION: cannot start if only one marker remains.",
+                      "blocks":  [
+                                     {
+                                         "id":  "sweep",
+                                         "label":  "Friendly unit performed a sensor sweep this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  true,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "objective-kill",
+                                         "label":  "Enemy that started the turn in range of an objective destroyed",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "last-marker",
+                                         "label":  "One enemy marker left - your unit in its terrain, no enemy there",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "hold-one",
+                                         "label":  "Control an objective (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "eob-last-marker",
+                                         "label":  "One enemy marker left - your unit in its terrain, no enemy there",
+                                         "roundMin":  5,
+                                         "roundMax":  5,
+                                         "endOfBattle":  true,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Sabotage",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "Sabotage",
+                      "actionText":  "STARTS: Your Shooting phase.\nUNITS: One unit in range of one objective (excl. home).\nUSE LIMIT: Unlimited; each unit this phase must be in range of a different objective.\nCOMPLETES: End of your turn, if that unit controls that objective.\nEFFECT: Your unit commits sabotage.",
+                      "blocks":  [
+                                     {
+                                         "id":  "sabotage-units",
+                                         "label":  "Units that committed sabotage this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Units that committed sabotage this turn",
+                                         "maxVp":  0,
+                                         "isAction":  true,
+                                         "sub":  [
+                                                     {
+                                                         "id":  "sabotage-enemy-territory",
+                                                         "label":  "Of those, in range of an objective in enemy territory",
+                                                         "kind":  "count",
+                                                         "vp":  2,
+                                                         "counterLabel":  "Saboteurs in range of objectives in enemy territory"
+                                                     }
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "hold-one",
+                                         "label":  "Control an objective (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Secure Asset",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "Secure Asset",
+                      "actionText":  "STARTS: Your Shooting phase.\nUNITS: One friendly unit in range of one objective (excl. home).\nUSE LIMIT: Once per turn.\nCOMPLETES: End of your turn, if your unit controls that objective.\nEFFECT: Your unit secures the asset.",
+                      "blocks":  [
+                                     {
+                                         "id":  "secured",
+                                         "label":  "Friendly unit secured the asset this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  true,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "central-kill",
+                                         "label":  "Enemy that started the turn near a central objective destroyed",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  2,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "hold-one",
+                                         "label":  "Control an objective (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "hold-three",
+                                         "label":  "Control three or more objectives",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Vanguard Operation",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "Vanguard Operation",
+                      "actionText":  "STARTS: Your Shooting phase.\nUNITS: One friendly unit within a terrain area in your opponent\u0027s territory.\nUSE LIMIT: Once per turn.\nCOMPLETES: End of your turn, if no enemy units are within that terrain area.\nEFFECT: Your unit performs a vanguard operation.",
+                      "blocks":  [
+                                     {
+                                         "id":  "vanguard",
+                                         "label":  "Friendly unit performed a vanguard operation this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  true,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "kills",
+                                         "label":  "One or more enemy units destroyed this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  2,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "hold-one",
+                                         "label":  "Control an objective (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "eob-enemy-home",
+                                         "label":  "Control your opponent\u0027s home objective",
+                                         "roundMin":  5,
+                                         "roundMax":  5,
+                                         "endOfBattle":  true,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  10,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Vital Link",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "Maintain Control",
+                      "actionText":  "STARTS: Your Shooting phase.\nUNITS: One friendly unit in range of one central objective.\nUSE LIMIT: Once per turn.\nCOMPLETES: End of your turn, if your unit controls that objective.\nEFFECT: Place one of your operation markers within range of that objective.",
+                      "blocks":  [
+                                     {
+                                         "id":  "central",
+                                         "label":  "Control one or more central objectives",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  2,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+                                                     {
+                                                         "id":  "central-markers",
+                                                         "label":  "Your markers in range of those central objectives",
+                                                         "kind":  "count",
+                                                         "vp":  1,
+                                                         "counterLabel":  "Markers in range of controlled central objectives"
+                                                     }
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "hold-one",
+                                         "label":  "Control an objective (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+                                                     {
+                                                         "id":  "hold-central",
+                                                         "label":  "One or more of those is a central objective",
+                                                         "kind":  "flat",
+                                                         "vp":  4
+                                                     }
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "eob-enemy-home",
+                                         "label":  "Control your opponent\u0027s home objective",
+                                         "roundMin":  5,
+                                         "roundMax":  5,
+                                         "endOfBattle":  true,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  10,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Death Trap",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "Booby Trap",
+                      "actionText":  "STARTS: Your Shooting phase.\nUNITS: One friendly unit in range of an objective (excl. home) or in a terrain area outside your deployment zone, not yet trapped.\nUSE LIMIT: Unlimited; each unit this phase must be within a different terrain area.\nCOMPLETES: Immediately.\nEFFECT: That terrain area is trapped - place one of your operation markers within it.",
+                      "blocks":  [
+                                     {
+                                         "id":  "trapped",
+                                         "label":  "Terrain areas trapped this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  2,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Terrain areas trapped this turn",
+                                         "maxVp":  0,
+                                         "isAction":  true,
+                                         "sub":  [
+                                                     {
+                                                         "id":  "trapped-objectives",
+                                                         "label":  "Of those, terrain areas that are objectives",
+                                                         "kind":  "count",
+                                                         "vp":  3,
+                                                         "counterLabel":  "Trapped-this-turn terrain areas that are objectives"
+                                                     }
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "trap-kill",
+                                         "label":  "Enemy that started the turn in a trapped terrain area destroyed",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "hold-one",
+                                         "label":  "Control an objective (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Delaying Action",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "kills",
+                                         "label":  "Enemy units destroyed this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  2,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Enemy units destroyed this turn",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "hold-one",
+                                         "label":  "Control an objective (excl. home objectives)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "central-and-expansion",
+                                         "label":  "Control a central objective and an expansion objective",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Locate and Deny",
+                      "variant":  "primary",
+                      "special":  "Start of battle: place your operation markers in five terrain areas outside your deployment zone.",
+                      "actionName":  "Sensor Sweep",
+                      "actionText":  "STARTS: Your Shooting phase.\nUNITS: One friendly unit in range of one central objective.\nUSE LIMIT: Once per turn.\nCOMPLETES: End of your turn, if your unit controls that objective.\nEFFECT: Remove one operation marker from the battlefield. RESTRICTION: cannot start if only one marker remains.",
+                      "blocks":  [
+                                     {
+                                         "id":  "objective-kill",
+                                         "label":  "Enemy that started the turn in range of an objective destroyed",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "last-marker",
+                                         "label":  "One of your markers left - your unit in its terrain, no enemy",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "hold-one",
+                                         "label":  "Control an objective (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "eob-last-marker",
+                                         "label":  "One of your markers left - your unit in its terrain, no enemy",
+                                         "roundMin":  5,
+                                         "roundMax":  5,
+                                         "endOfBattle":  true,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Outmanoeuvre",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "enemy-home",
+                                         "label":  "Control your opponent\u0027s home objective",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  10,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "r1-hold-each",
+                                         "label":  "Objectives you control (excl. home)",
+                                         "roundMin":  1,
+                                         "roundMax":  1,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Objectives you control (excl. home)",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "r23-hold-each",
+                                         "label":  "Objectives you control (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  3,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "count",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Objectives you control (excl. home)",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "r45-hold-each",
+                                         "label":  "Objectives you control (excl. home)",
+                                         "roundMin":  4,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  6,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Objectives you control (excl. home)",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Smoke and Mirrors",
+                      "variant":  "primary",
+                      "special":  "",
+                      "actionName":  "Decoy",
+                      "actionText":  "STARTS: Your Shooting phase.\nUNITS: One friendly unit in range of one objective (excl. home) that is not decoyed.\nUSE LIMIT: Unlimited; each unit this phase must be in range of a different objective.\nCOMPLETES: End of your turn, if your unit controls that objective.\nEFFECT: That objective is decoyed - place one of your operation markers in range of it.",
+                      "blocks":  [
+                                     {
+                                         "id":  "decoyed",
+                                         "label":  "Objectives that are decoyed",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  2,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Objectives that are decoyed",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+                                                     {
+                                                         "id":  "decoyed-enemy-territory",
+                                                         "label":  "Of those, in your opponent\u0027s territory",
+                                                         "kind":  "count",
+                                                         "vp":  2,
+                                                         "counterLabel":  "Decoyed objectives in enemy territory"
+                                                     }
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "hold-one",
+                                         "label":  "Control an objective (excl. home)",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "commandPhaseEnd",
+                                         "kind":  "flat",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "eob-four-decoyed",
+                                         "label":  "Four or more objectives are decoyed",
+                                         "roundMin":  5,
+                                         "roundMax":  5,
+                                         "endOfBattle":  true,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  10,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "A Grievous Blow",
+                      "variant":  "fixed",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "grievous-fixed-kills",
+                                         "label":  "Enemy units with Starting Strength 13+ destroyed this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Enemy units (SS 13+) destroyed this turn",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "A Grievous Blow",
+                      "variant":  "tactical",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "grievous-tac-kill",
+                                         "label":  "One or more enemy units with Starting Strength 13+ destroyed this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "A Tempting Target",
+                      "variant":  "tactical",
+                      "special":  "Tempting target: one No Man\u0027s Land objective (excl. home objectives) chosen by your opponent when this card is drawn.",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "tempting-control",
+                                         "label":  "You control your tempting target",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Assassination",
+                      "variant":  "fixed",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "assassination-fixed-chars",
+                                         "label":  "Enemy CHARACTER models destroyed this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Enemy CHARACTER models destroyed this turn",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+                                                     {
+                                                         "id":  "assassination-fixed-w4",
+                                                         "label":  "Those models with Wounds 4 or more",
+                                                         "kind":  "count",
+                                                         "vp":  1,
+                                                         "counterLabel":  "Of those, models with W 4+"
+                                                     }
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Assassination",
+                      "variant":  "tactical",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "assassination-tac",
+                                         "label":  "Enemy CHARACTER destroyed this turn, or all enemy CHARACTERS dead",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Beacon",
+                      "variant":  "tactical",
+                      "special":  "Beacon unit: one friendly unit on the battlefield (or embarked in a TRANSPORT on it) chosen when this card is drawn.",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "beacon-position",
+                                         "label":  "Beacon unit position",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "opponentTurnEnd",
+                                         "kind":  "tier",
+                                         "vp":  0,
+                                         "tiers":  [
+                                                       {
+                                                           "vp":  3,
+                                                           "label":  "Beacon unit on battlefield, not in your deployment zone"
+                                                       },
+                                                       {
+                                                           "vp":  5,
+                                                           "label":  "Beacon unit on battlefield, not in your territory"
+                                                       }
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Behind Enemy Lines",
+                      "variant":  "tactical",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "bel-units",
+                                         "label":  "Friendly units wholly in enemy deployment zone",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Friendly units (excl. AIRCRAFT, battle-shocked) wholly in enemy DZ",
+                                         "maxVp":  5,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Bring it Down",
+                      "variant":  "fixed",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "bid-fixed-kills",
+                                         "label":  "Enemy models with Wounds 10+ destroyed this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  4,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Enemy models (W 10+) destroyed this turn",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Bring it Down",
+                      "variant":  "tactical",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "bid-tac-kill",
+                                         "label":  "One or more enemy models with Wounds 10+ destroyed this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Burden of Trust",
+                      "variant":  "tactical",
+                      "special":  "Guarded: when drawn and at the start of your turn, pick one friendly unit per objective; while that unit is in range and you control the objective (until your next turn), it is guarded by your army.",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "burden-guarded",
+                                         "label":  "Objectives guarded by your army",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "opponentTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  2,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Objectives guarded by your army",
+                                         "maxVp":  5,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Centre Ground",
+                      "variant":  "tactical",
+                      "special":  "Friendly units counted exclude AIRCRAFT and battle-shocked units.",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "centre-hold",
+                                         "label":  "Hold the centre of the battlefield",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "tier",
+                                         "vp":  0,
+                                         "tiers":  [
+                                                       {
+                                                           "vp":  3,
+                                                           "label":  "Friendly unit within 3\" of centre, no enemy within 3\""
+                                                       },
+                                                       {
+                                                           "vp":  5,
+                                                           "label":  "Friendly unit within 3\" of centre, no enemy within 6\""
+                                                       }
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Cleanse",
+                      "variant":  "tactical",
+                      "special":  "",
+                      "actionName":  "Cleanse",
+                      "actionText":  "STARTS: Your Shooting phase. UNITS: One friendly unit within range of one objective (excl. your home). USE LIMIT: Unlimited; each unit this phase must be in range of a different objective. COMPLETES: End of your turn, if that unit controls that objective. EFFECT: That objective is cleansed by your army.",
+                      "blocks":  [
+                                     {
+                                         "id":  "cleanse-objectives",
+                                         "label":  "Objectives cleansed by your army this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "tier",
+                                         "vp":  0,
+                                         "tiers":  [
+                                                       {
+                                                           "vp":  2,
+                                                           "label":  "One objective cleansed this turn"
+                                                       },
+                                                       {
+                                                           "vp":  5,
+                                                           "label":  "Two or more objectives cleansed this turn"
+                                                       }
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  true,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Defend Stronghold",
+                      "variant":  "tactical",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "defend-home",
+                                         "label":  "You control your home objective",
+                                         "roundMin":  2,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "opponentTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+                                                     {
+                                                         "id":  "defend-clear-dz",
+                                                         "label":  "No enemy units within your deployment zone",
+                                                         "kind":  "flat",
+                                                         "vp":  2
+                                                     }
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Display of Might",
+                      "variant":  "tactical",
+                      "special":  "Units counted (both sides) exclude AIRCRAFT and battle-shocked units.",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "display-your-turn",
+                                         "label":  "More friendly than enemy units wholly in No Man\u0027s Land",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  2,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     },
+                                     {
+                                         "id":  "display-opp-turn",
+                                         "label":  "More friendly than enemy units wholly in No Man\u0027s Land",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "opponentTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Engage on All Fronts",
+                      "variant":  "fixed",
+                      "special":  "Presence in a table quarter: one or more friendly units (excl. AIRCRAFT, battle-shocked) wholly within it and not within 6\" of the battlefield centre.",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "engage-fixed-quarters",
+                                         "label":  "Table quarters you have a presence in",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "tier",
+                                         "vp":  0,
+                                         "tiers":  [
+                                                       {
+                                                           "vp":  2,
+                                                           "label":  "Presence in three table quarters"
+                                                       },
+                                                       {
+                                                           "vp":  4,
+                                                           "label":  "Presence in four table quarters"
+                                                       }
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Engage on All Fronts",
+                      "variant":  "tactical",
+                      "special":  "Presence in a table quarter: one or more friendly units (excl. AIRCRAFT, battle-shocked) wholly within it and not within 6\" of the battlefield centre.",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "engage-tac-quarters",
+                                         "label":  "Table quarters you have a presence in",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "tier",
+                                         "vp":  0,
+                                         "tiers":  [
+                                                       {
+                                                           "vp":  3,
+                                                           "label":  "Presence in three table quarters"
+                                                       },
+                                                       {
+                                                           "vp":  5,
+                                                           "label":  "Presence in four table quarters"
+                                                       }
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Forward Position",
+                      "variant":  "tactical",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "forward-control",
+                                         "label":  "Control opponent\u0027s home objective and/or each expansion objective",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "No Prisoners",
+                      "variant":  "tactical",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "noprisoners-kills",
+                                         "label":  "Enemy units destroyed this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  2,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Enemy units destroyed this turn",
+                                         "maxVp":  5,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Outflank",
+                      "variant":  "tactical",
+                      "special":  "Opposite battlefield edges are those parallel to each other; units counted exclude AIRCRAFT and battle-shocked units.",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "outflank-edges",
+                                         "label":  "Friendly units near battlefield edges outside your territory",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "tier",
+                                         "vp":  0,
+                                         "tiers":  [
+                                                       {
+                                                           "vp":  3,
+                                                           "label":  "Unit within 6\" of an edge and not in your territory"
+                                                       },
+                                                       {
+                                                           "vp":  5,
+                                                           "label":  "Units within 6\" of opposite edges, one+ not in your territory"
+                                                       }
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Overwhelming Force",
+                      "variant":  "tactical",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "overwhelming-kills",
+                                         "label":  "Enemy units on objectives at start of turn, destroyed this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "anyTurnEnd",
+                                         "kind":  "count",
+                                         "vp":  3,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "Enemy units that started the turn on objectives and were destroyed",
+                                         "maxVp":  5,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Plunder",
+                      "variant":  "tactical",
+                      "special":  "",
+                      "actionName":  "Plunder",
+                      "actionText":  "STARTS: Your Shooting phase. UNITS: One unit within a terrain area that is not within your territory. USE LIMIT: Once per turn. COMPLETES: Immediately. EFFECT: That terrain area is plundered.",
+                      "blocks":  [
+                                     {
+                                         "id":  "plunder-terrain",
+                                         "label":  "A terrain area was plundered this turn",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  true,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "card":  "Secure No Man\u0027s Land",
+                      "variant":  "tactical",
+                      "special":  "",
+                      "actionName":  "",
+                      "actionText":  "",
+                      "blocks":  [
+                                     {
+                                         "id":  "secure-nml",
+                                         "label":  "Control two or more No Man\u0027s Land objectives (excl. home)",
+                                         "roundMin":  1,
+                                         "roundMax":  5,
+                                         "endOfBattle":  false,
+                                         "timing":  "yourTurnEnd",
+                                         "kind":  "flat",
+                                         "vp":  5,
+                                         "tiers":  [
+
+                                                   ],
+                                         "counterLabel":  "",
+                                         "maxVp":  0,
+                                         "isAction":  false,
+                                         "sub":  [
+
+                                                 ]
+                                     }
+                                 ]
+                  }
+              ]
+}

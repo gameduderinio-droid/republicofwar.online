@@ -1,0 +1,226 @@
+{
+ "coreAbilities": [
+  {
+   "name": "Deadly Demise (?<value>(?:D\\d+(?: \\+ \\d+)?|\\d+))",
+   "text": "Each time a model in this unit is destroyed, after the units embarked within it (if any) have made their emergency disembark moves, roll one D6. On a 6, that model suffers a deadly demise; each unit within 6\" of that model suffers {value} mortal wounds (if this is a random number, roll separately for each unit within 6\")."
+  },
+  {
+   "name": "Deep Strike",
+   "text": "Each time this unit makes an ingress move, if every model in this unit has this ability, it can be set up anywhere on the battlefield that is more than 8\" horizontally from all enemy units, even if that is within your opponent’s deployment zone."
+  },
+  {
+   "name": "Feel No Pain (?<value>\\d+\\+)",
+   "text": "Each time a model with this ability would lose a wound, roll one D6: on a {value}, that wound is not lost."
+  },
+  {
+   "name": "Fights First",
+   "text": "While every model in a unit has this ability, that unit is a Fights First unit. See the Resolve Fights First Combats step in the Fight phase."
+  },
+  {
+   "name": "Firing Deck (?<value>(?:D\\d+(?: \\+ \\d+)?|\\d+))",
+   "text": "In your Shooting phase, each time this Transport is selected to shoot, if one or more units are embarked within it, resolve the following sequence:\r\n1. Select up to {value} models embarked within this Transport (excluding models whose units have already been selected to shoot this phase).\r\n2. For each selected model, select one of its ranged weapons (excluding [ONE SHOT] weapons).\r\n3. Until this Transport has resolved all of its attacks, it has all of those selected weapons in addition to its other weapons.\r\n4. Until the end of the turn, units embarked within this Transport are not eligible to shoot."
+  },
+  {
+   "name": "Hover",
+   "text": "Each time this unit takes to the skies, do not subtract 2\" from the maximum distance."
+  },
+  {
+   "name": "Infiltrators",
+   "text": "During deployment, if every model in a unit has this ability, it can be set up anywhere on the battlefield that is more than 8\" horizontally from your opponent’s deployment zone and all enemy units."
+  },
+  {
+   "name": "Leader",
+   "text": "Before the battle, in the Muster Armies step, this unit can be selected to lead one friendly Bodyguard unit it is able to lead, forming an Attached unit with it for the battle. Unless otherwise stated, each Bodyguard unit can only have one Leader unit attached to it. An Attached unit is a single unit for all rules purposes and has all of the keywords of its component units."
+  },
+  {
+   "name": "Lone Operative",
+   "text": "Unless part of an attached unit, this unit is not visible to enemy models unless they are within 12\" of this unit, and it cannot be targeted by [INDIRECT FIRE] weapons unless the attacking model is within 12\" of this unit."
+  },
+  {
+   "name": "Lone Operative (?<value>(?:D\\d+(?: \\+ \\d+)?|\\d+))\"?",
+   "text": "Unless part of an attached unit, this unit is not visible to enemy models unless they are within {value}\" of this unit, and it cannot be targeted by [INDIRECT FIRE] weapons unless the attacking model is within {value}\" of this unit."
+  },
+  {
+   "name": "Scouts (?<value>(?:D\\d+(?: \\+ \\d+)?|\\d+))\"?",
+   "text": "In the Resolve Pre-battle Abilities step, if every model in a unit has this ability, you can do one of the following:\r\n▪ If that unit is in Strategic Reserves, you can set up that unit anywhere that is wholly within your deployment zone.\r\n▪ If that unit is wholly within your deployment zone, it can make a scout move.\r\n▪ If that unit is embarked within a Dedicated Transport that is wholly within your deployment zone, and if every model embarked within that Dedicated Transport has the Scouts ability, that Dedicated Transport can make a scout move.\r\nScout move maximum distance: {value}\". After moving, your unit must be more than 8\" horizontally from all enemy units."
+  },
+  {
+   "name": "Stealth",
+   "text": "If every model in a unit has this ability, each time a ranged attack targets that unit, that unit has the Benefit of Cover against that attack."
+  },
+  {
+   "name": "Support",
+   "text": "Before the battle, in the Muster Armies step, this unit can be selected to lead one friendly Bodyguard unit it is able to lead, forming an Attached unit with it for the battle. Unless otherwise stated, each Bodyguard unit can only have one Support unit attached to it. An Attached unit is a single unit for all rules purposes and has all of the keywords of its component units."
+  },
+  {
+   "name": "Super-Heavy Walker",
+   "text": "Each time a unit with this ability makes a Normal, Advance or Fall Back move:\r\n▪ Models in that unit can move through models (including Monster/Vehicle models, but excluding Titanic models) and can move horizontally through sections of terrain features that are 4\" or less in height.\r\n▪ Before moving that unit, you can select for all models in that unit to have the Mobile keyword until that move ends. If you do, when that move ends, roll one D6: on a 1, that unit is Battle-shocked."
+  },
+  {
+   "name": "Deadly Strike",
+   "text": "Don't know what this does?"
+  },
+  {
+   "name": "Crucible",
+   "text": "A Character created using these rules has the Crucible ability. Your army may include up to three units with the Crucible ability and these units cannot be give Enhancements."
+  }
+ ],
+ "weaponAbilities": [
+  {
+   "name": "ANTI-(?<keyword>[\\w\\s-]+)\\s+(?<value>\\d+\\+)",
+   "text": "Each time an attack is made with this weapon, if the target unit has the {keyword} keyword, an unmodified Wound roll of {value} is a Critical Wound."
+  },
+  {
+   "name": "ANTI(?:-|:)\\s*non-(?<keyword>[\\w-]+(?:\\s*/\\s*[\\w-]+)*)\\s+(?<value>\\d+\\+)",
+   "text": "Each time an attack is made with this weapon, if the target unit does not have any of the following keywords: {keyword}, an unmodified Wound roll of {value} is a Critical Wound."
+  },
+  {
+   "name": "ANTI(?:-|:)\\s*(?!non-)(?<keyword>[\\w-]+(?:\\s*/\\s*[\\w-]+)*)\\s+(?<value>\\d+\\+)",
+   "text": "Each time an attack is made with this weapon, if the target unit has one or more of the following keywords: {keyword}, an unmodified Wound roll of {value} is a Critical Wound."
+  },
+  {
+   "name": "ASSAULT",
+   "text": "Units containing one or more models with an [ASSAULT] weapon can shoot using assault shooting."
+  },
+  {
+   "name": "BLAST",
+   "text": "Each time you gather attack dice for this weapon, add one additional attack dice for every five models that were in the target unit in the Select Targets step (rounding down)."
+  },
+  {
+   "name": "BLAST (?<value>(?:D\\d+(?: \\+ \\d+)?|\\d+))",
+   "text": "Each time you gather attack dice for this weapon, add {value} additional attack dice for every five models that were in the target unit in the Select Targets step (rounding down) instead."
+  },
+  {
+   "name": "CLEAVE (?<value>(?:D\\d+(?: \\+ \\d+)?|\\d+))",
+   "text": "Each time you gather attack dice for this weapon, if you only selected one target for all of that weapon’s attacks, add {value} additional attack dice for every five models that were in the target unit in the Select Targets step (rounding down)."
+  },
+  {
+   "name": "CLOSE-QUARTERS",
+   "text": "Units containing one or more models with a [CLOSE-QUARTERS] weapon can shoot using close-quarters shooting. When using another shooting type, for each model in that unit (excluding Monster/Vehicle models), you can only select one of the following to make attacks with:\r\n▪ One or more of its [CLOSE-QUARTERS] weapons.\r\n▪ One or more of its other ranged weapons."
+  },
+  {
+   "name": "DEVASTATING WOUNDS",
+   "text": "Each time an attack made with this weapon results in a Critical Wound, the attack sequence for that attack ends and the target unit suffers a number of mortal wounds equal to the Damage characteristic of that weapon. These are inflicted after resolving any normal damage inflicted by those attacks. Mortal wounds inflicted by [DEVASTATING WOUNDS] weapons can damage a maximum of one model for each Critical Wound; any remaining mortal wounds inflicted by that attack are lost."
+  },
+  {
+   "name": "EXTRA ATTACKS",
+   "text": "Each time a unit containing one or more models with an [EXTRA ATTACKS] weapon fights, those models will make attacks with those weapons in addition to any others. In the Select Weapons step, for each of those models, you must select:\r\n▪ All of that model’s [EXTRA ATTACKS] weapons.\r\n▪ One of that model’s other melee weapons, if possible."
+  },
+  {
+   "name": "HAZARDOUS",
+   "text": "Each time a unit is selected to shoot or selected to fight, after that unit has resolved all of its attacks, make a number of hazard rolls for that unit equal to the number of [HAZARDOUS] weapons you selected in the Select Weapons step."
+  },
+  {
+   "name": "HEAVY",
+   "text": "In your Shooting phase, each time an attack is made with a [HEAVY] weapon, add 1 to the Hit roll if all of the following apply to the attacking unit:\r\n▪ That unit is unengaged.\r\n▪ That unit was not set up on the battlefield this turn.\r\n▪ No model in that unit has moved more than 3\" this turn."
+  },
+  {
+   "name": "IGNORES COVER",
+   "text": "Each time an attack is made with an [IGNORES COVER] weapon, the target cannot have the Benefit of Cover against that attack, including from rules that give a model or unit the Benefit of Cover."
+  },
+  {
+   "name": "INDIRECT FIRE",
+   "text": "Units containing one or more models with an [INDIRECT FIRE] weapon can shoot using indirect shooting."
+  },
+  {
+   "name": "LANCE",
+   "text": "Each time an attack is made with a [LANCE] weapon, if the attacking model’s unit made a Charge move this turn, add 1 to the Wound roll."
+  },
+  {
+   "name": "LETHAL HITS",
+   "text": "Each time an attack made with a [LETHAL HITS] weapon results in a Critical Hit, you can choose for that attack to automatically wound the target."
+  },
+  {
+   "name": "MELTA (?<value>(?:D\\d+(?: \\+ \\d+)?|\\d+))",
+   "text": "Each time a model makes an attack with a [MELTA] weapon, if the target unit was within half range of that weapon in the Select Targets step, until the attacking unit’s attacks have been resolved, add {value} to that weapon’s Damage characteristic."
+  },
+  {
+   "name": "ONE SHOT",
+   "text": "Each weapon with this ability can only be selected to make attacks with once per battle. If a destroyed model is returned to a unit, all of its [ONE SHOT] weapons that have already been selected to make attacks with during the battle cannot be selected to make attacks with again. If a new unit is added to an army, all [ONE SHOT] weapons in that unit can be selected to make attacks with once per battle."
+  },
+  {
+   "name": "PISTOL",
+   "text": "Units containing one or more models with a [PISTOL] weapon can shoot using close-quarters shooting. When using another shooting type, for each model in that unit (excluding Monster/Vehicle models), you can only select one of the following to make attacks with:\r\n▪ One or more of its [PISTOL] weapons.\r\n▪ One or more of its other ranged weapons."
+  },
+  {
+   "name": "PRECISION",
+   "text": "While resolving attacks made with one or more [PRECISION] weapons, at the start of the Allocation Order step, if the target unit contains one or more Character models visible to one or more of the attacking models, the active player can select one allocation group that contains one of those visible Character models. If they do, until those attacks are resolved, or until that Character group is destroyed (whichever happens first), that Character group is the current allocation group."
+  },
+  {
+   "name": "PSYCHIC",
+   "text": "Each time an attack is made with a [PSYCHIC] weapon, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristic and any or all modifiers to the Hit roll. Attacks made with [PSYCHIC] weapons are known as psychic attacks."
+  },
+  {
+   "name": "RAPID FIRE (?<value>(?:D\\d+(?: \\+ \\d+)?|\\d+))",
+   "text": "Each time you gather attack dice for a [RAPID FIRE] weapon, add {value} additional attack dice if the target unit was within half range of that weapon in the Select Targets step."
+  },
+  {
+   "name": "SUSTAINED HITS (?<value>(?:D\\d+(?: \\+ \\d+)?|\\d+))",
+   "text": "Each time an attack made with a [SUSTAINED HITS] weapon results in a Critical Hit, that attack results in {value} additional hits on the target."
+  },
+  {
+   "name": "TORRENT",
+   "text": "Each time an attack is made with a [TORRENT] weapon, that attack automatically hits the target."
+  },
+  {
+   "name": "TWIN-LINKED",
+   "text": "Each time an attack is made with a [TWIN-LINKED] weapon, you can re-roll the Wound roll."
+  },
+  {
+   "name": "LINKED FIRE",
+   "text": "When selecting targets for this weapon, you can measure range and determine visibility from another friendly FIRE PRISM model that is visible to the bearer. When doing so, this weapon has an Attacks characteristic of 1."
+  },
+  {
+   "name": "PLASMA WARHEAD",
+   "text": "The bearer can only shoot with this weapon in your Shooting phase, and only if it Remained Stationary this turn and you did not use its Deathstrike Missile ability to Designate Target or Adjust Target this phase. When the bearer shoots with this weapon, do not select a target. Instead, resolve this weapon’s attacks, rolling for each unit within 6\" of the centre of its Deathstrike Target marker individually."
+  },
+  {
+   "name": "REVERBERATING SUMMONS",
+   "text": "Each time a model is destroyed by this weapon, you can select one friendly Plaguebearers unit within 12\" of the bearer and return 1 destroyed Plaguebearer model to that unit."
+  },
+  {
+   "name": "CONVERSION (?<value>\\d+\")",
+   "text": "Each time an attack is made with this weapon, if the target is more than {value} from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit."
+  },
+  {
+   "name": "PSYCHIC ASSASSIN",
+   "text": "Each time you select a PSYKER unit as the target for this weapon, until those attacks are resolved, change the Attacks characteristic of this weapon to 6."
+  },
+  {
+   "name": "OVERCHARGE",
+   "text": "Each time the bearer takes a Hazardous test for this weapon profile, subtract 2 from the result."
+  },
+  {
+   "name": "DEAD CHOPPY",
+   "text": "The Attacks characteristic of this weapon is increased by 1 for each additional dread klaw this model is equipped with."
+  },
+  {
+   "name": "SNAGGED",
+   "text": "Each time this weapon scores a hit against a Monster or Vehicle unit, until the end of the turn, if the bearer selects that unit as a target of a charge, add 2 to Charge rolls made for the bearer and enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer."
+  },
+  {
+   "name": "BUBBLECHUKKA",
+   "text": "Before selecting targets for one or more models equipped with this weapon, roll one D6 to determine which profile models equipped with this weapon will make attacks with, comparing the result with the numbers shown on the left."
+  },
+  {
+   "name": "HIVE DEFENCES",
+   "text": "Each time an enemy unit is set up or ends a Normal, Advance or Fall Back move within range of this weapon, if that enemy unit is an eligible target, the bearer can shoot with this weapon at that unit as if it were your Shooting phase (the bearer can do so up to four times per phase)."
+  },
+  {
+   "name": "HARPOONED",
+   "text": "After the bearer has shot with this weapon, select one enemy Monster or Vehicle unit hit by one or more of those attacks. Until the end of the turn, each time the bearer selects that unit as a target of a charge, add 2 to the Charge roll."
+  },
+  {
+   "name": "IMPALED",
+   "text": "Each time this weapon scores a hit against an enemy Monster or Vehicle unit, until the end of the turn, if the bearer selects that unit as a target of a charge, add 2 to Charge rolls made for the bearer."
+  },
+  {
+   "name": "HOOKED",
+   "text": "Each time the bearer makes an attack with this weapon that targets a Monster or Vehicle unit, if a hit is scored, until the end of the turn, if the bearer selects that unit as a target of a charge, add 2 to Charge rolls made for the bearer and enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer."
+  },
+  {
+   "name": "PLASMA",
+   "text": "Dark Age Arsenal: Invocations of Ancient Fury: Plasma weapon profiles have +1 S."
+  }
+ ]
+}

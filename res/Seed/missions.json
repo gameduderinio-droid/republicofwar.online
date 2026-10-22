@@ -1,0 +1,1220 @@
+{
+  "primaryCards": [
+    {
+      "name": "Battlefield Dominance",
+      "deck": "Take and Hold",
+      "vsDeck": "Take and Hold",
+      "setupRule": "",
+      "rulesText": "FIRST & SECOND BATTLE ROUND - End of your turn:\n  2VP: You control more objectives than your opponent.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  3VP [per instance]: For each objective you control.\n  2VP [per instance, cumulative with above]: For each of those objectives (excluding your home objective) if you control your home objective.",
+      "vp": "2, 3",
+      "whenScored": "FIRST & SECOND BATTLE ROUND; SECOND BATTLE ROUND ONWARDS",
+      "image": "Cards/battlefielddominance"
+    },
+    {
+      "name": "Determined Acquisition",
+      "deck": "Take and Hold",
+      "vsDeck": "Disruption",
+      "setupRule": "",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  2VP [per instance]: For each objective you control that you did not control at the start of the turn (excluding your home objective).\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  3VP [per instance]: For each objective you control.\n  3VP [per instance, cumulative with above]: For each of those objectives that is within your opponent's territory.",
+      "vp": "2, 3",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS",
+      "image": "Cards/determinedacquisition"
+    },
+    {
+      "name": "Immovable Object",
+      "deck": "Take and Hold",
+      "vsDeck": "Purge the Foe",
+      "setupRule": "",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  3VP: You control one or more central objectives.\nSECOND TO FOURTH BATTLE ROUND - End of your Command phase:\n  5VP [per instance]: For each objective you control (excluding your home objective).\nFIFTH BATTLE ROUND - End of your turn:\n  5VP [per instance]: For each objective you control (excluding your home objective).",
+      "vp": "3, 5",
+      "whenScored": "ANY BATTLE ROUND; SECOND TO FOURTH BATTLE ROUND; FIFTH BATTLE ROUND",
+      "image": "Cards/immovableobject"
+    },
+    {
+      "name": "Inescapable Dominion",
+      "deck": "Take and Hold",
+      "vsDeck": "Priority Assets",
+      "setupRule": "",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  4VP: You control three or more objectives.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  5VP: You control two or more objectives.\n  4VP: You control more objectives than your opponent.\nEND OF BATTLE:\n  5VP: You control your opponent's home objective.",
+      "vp": "4, 5",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS; END OF BATTLE",
+      "image": "Cards/inescapabledominion"
+    },
+    {
+      "name": "Purge and Secure",
+      "deck": "Take and Hold",
+      "vsDeck": "Reconnaissance",
+      "setupRule": "",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  3VP: One or more enemy units were destroyed this turn by a friendly unit that was within range of one or more objectives.\n  OR 3VP: One or more enemy units that started the turn within range of one or more objectives were destroyed this turn.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP [per instance]: For each objective you control (excluding your home objective).\nSECOND BATTLE ROUND ONWARDS - End of your turn:\n  3VP: You control one or more objectives you did not control at the start of the turn (excluding your home objective).",
+      "vp": "3, 4",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS",
+      "image": "Cards/purgeandsecure"
+    },
+    {
+      "name": "Consecrate",
+      "deck": "Purge the Foe",
+      "vsDeck": "Reconnaissance",
+      "setupRule": "Each time a friendly unit destroys a unit, that friendly unit becomes a consecration unit. At the end of your turn, for each of your consecration units, you can select one objective it is within range of (excluding your home objective) that has not been consecrated. If you do, place one of your operation markers within range of that objective – that objective is consecrated and that unit is no longer a consecration unit.",
+      "rulesText": "SPECIAL RULE: Each time a friendly unit destroys a unit, that friendly unit becomes a consecration unit. At the end of your turn, for each of your consecration units, you can select one objective it is within range of (excluding your home objective) that has not been consecrated. If you do, place one of your operation markers within range of that objective – that objective is consecrated and that unit is no longer a consecration unit.\nANY BATTLE ROUND - End of your turn:\n  3VP: One or two objectives are consecrated.\n  OR 6VP: Three or more objectives are consecrated.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP: You control one or more objectives (excluding your home objective).\n  4VP: You control more objectives than your opponent.\nEND OF BATTLE:\n  5VP: Your opponent's home objective is consecrated.",
+      "vp": "3, 6, 4, 5",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS; END OF BATTLE",
+      "image": "Cards/consecrate"
+    },
+    {
+      "name": "Destroyer's Wrath",
+      "deck": "Purge the Foe",
+      "vsDeck": "Priority Assets",
+      "setupRule": "",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  3VP: One or more enemy units were destroyed this turn.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP: You control one or more objectives (excluding your home objective).\n  6VP: You control more objectives than your opponent.\nSECOND BATTLE ROUND ONWARDS - End of your turn:\n  4VP: More enemy units were destroyed this turn than friendly units were destroyed in the previous turn.",
+      "vp": "3, 4, 6",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS",
+      "image": "Cards/destroyerswrath"
+    },
+    {
+      "name": "Meatgrinder",
+      "deck": "Purge the Foe",
+      "vsDeck": "Purge the Foe",
+      "setupRule": "",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  3VP: One or more enemy units were destroyed this turn.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP: You control one or more objectives (excluding your home objective).\nSECOND BATTLE ROUND ONWARDS - End of your turn:\n  5VP: More enemy units were destroyed this turn than friendly units were destroyed in the previous turn.\n  5VP: You control your opponent's home objective.",
+      "vp": "3, 4, 5",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS",
+      "image": "Cards/meatgrinder"
+    },
+    {
+      "name": "Punishment",
+      "deck": "Purge the Foe",
+      "vsDeck": "Disruption",
+      "setupRule": "START OF YOUR TURN: Select one to three enemy units that are on the battlefield and within range of objectives and/or that destroyed one or more friendly units in the previous turn. If you cannot, select one enemy unit that is on the battlefield. Until the start of your next turn, those units are condemned.",
+      "rulesText": "SPECIAL RULE: START OF YOUR TURN: Select one to three enemy units that are on the battlefield and within range of objectives and/or that destroyed one or more friendly units in the previous turn. If you cannot, select one enemy unit that is on the battlefield. Until the start of your next turn, those units are condemned.\nANY BATTLE ROUND - End of a turn:\n  5VP: One or more condemned enemy units left the battlefield this turn.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP: You control one or more objectives (excluding your home objective).\n  5VP: You control more objectives than your opponent.\nEND OF BATTLE:\n  8VP: You control your opponent's home objective.",
+      "vp": "5, 4, 8",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS; END OF BATTLE",
+      "image": "Cards/punishment"
+    },
+    {
+      "name": "Unstoppable Force",
+      "deck": "Purge the Foe",
+      "vsDeck": "Take and Hold",
+      "setupRule": "",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  3VP: One or more enemy units were destroyed this turn.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP [per instance]: For each objective you control (excluding your home objective).\nSECOND BATTLE ROUND ONWARDS - End of your turn:\n  3VP: You control one or more objectives you did not control at the start of the turn (excluding your home objective).\nEND OF BATTLE:\n  5VP: You control one or more central objectives.",
+      "vp": "3, 4, 5",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS; END OF BATTLE",
+      "image": "Cards/unstoppableforce"
+    },
+    {
+      "name": "Gather Intel",
+      "deck": "Reconnaissance",
+      "vsDeck": "Reconnaissance",
+      "setupRule": "OBJECTIVE ACTION - EXTRACT INTELLIGENCE (reverse of card):\n  STARTS: Your Shooting phase, from the second battle round onwards.\n  UNITS: One unit within range of one objective (excluding your home objective) that does not have any of your operation markers within range of it.\n  USE LIMIT: Unlimited. Each unit that starts this action this phase must be within range of a different objective.\n  COMPLETES: End of your turn, if your unit controls that objective.\n  EFFECT: Place one of your operation markers within range of that objective.",
+      "rulesText": "FIRST BATTLE ROUND - End of your turn:\n  6VP: You control one or more central objectives.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP: You control one or more objectives (excluding your home objective).\nSECOND BATTLE ROUND ONWARDS - End of your turn:\n  7VP [per instance]: For each friendly unit that completed the Extract Intelligence action this turn.\nEND OF BATTLE:\n  5VP: Three or more of your operation markers are on the battlefield.\n  5VP: One of your operation markers is within range of your opponent's home objective.",
+      "vp": "6, 4, 7, 5",
+      "whenScored": "FIRST BATTLE ROUND; SECOND BATTLE ROUND ONWARDS; END OF BATTLE",
+      "image": "Cards/gatherintel"
+    },
+    {
+      "name": "Reconnaissance Sweep",
+      "deck": "Reconnaissance",
+      "vsDeck": "Take and Hold",
+      "setupRule": "",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  3VP: Three or more friendly units are wholly within three different table quarters and not within 6\" of the centre of the battlefield.\n  OR 6VP: Four or more friendly units are wholly within four different table quarters and not within 6\" of the centre of the battlefield.\nANY BATTLE ROUND - End of your turn:\n  1VP [per instance]: For each enemy unit destroyed this turn.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  3VP: You control one or more objectives (excluding your home objective).",
+      "vp": "3, 6, 1",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS",
+      "image": "Cards/reconnaissancesweep"
+    },
+    {
+      "name": "Search and Scour",
+      "deck": "Reconnaissance",
+      "vsDeck": "Priority Assets",
+      "setupRule": "",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  3VP: You control one or more central objectives.\n  2VP: One or more enemy units that started the turn within a terrain area are destroyed.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP [per instance]: For each objective you control (excluding your home objective).\nEND OF BATTLE:\n  5VP: No enemy units are wholly within your territory.",
+      "vp": "3, 2, 4, 5",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS; END OF BATTLE",
+      "image": "Cards/searchandscour"
+    },
+    {
+      "name": "Surveil the Foe",
+      "deck": "Reconnaissance",
+      "vsDeck": "Disruption",
+      "setupRule": "Each time a friendly unit ends a move within range of one objective that has any of your opponent's operation markers within range of it, remove those operation markers from the battlefield.\nACTION - SURVEIL THE FOE (reverse of card):\n  STARTS: Your Shooting phase.\n  UNITS: One friendly unit.\n  USE LIMIT: Unlimited.\n  COMPLETES: Immediately.\n  EFFECT: Select one enemy unit within 18\" of and visible to your unit that has not been surveilled this turn: until the end of the turn, that enemy unit is surveilled.",
+      "rulesText": "SPECIAL RULE: Each time a friendly unit ends a move within range of one objective that has any of your opponent's operation markers within range of it, remove those operation markers from the battlefield.\nANY BATTLE ROUND - End of your turn:\n  4VP: One or more enemy units were surveilled this turn (see reverse), unless each of those units is within range of one or more objectives that have one or more operation markers within range of them.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP: You control one or more objectives (excluding your home objective).\n  4VP: You control more objectives than your opponent.\nSECOND BATTLE ROUND ONWARDS - End of your turn:\n  5VP: None of your opponent's operation markers are on the battlefield.",
+      "vp": "4, 5",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS",
+      "image": "Cards/surveilthefoe"
+    },
+    {
+      "name": "Triangulation",
+      "deck": "Reconnaissance",
+      "vsDeck": "Purge the Foe",
+      "setupRule": "OBJECTIVE ACTION - TRIANGULATE (reverse of card):\n  STARTS: Your Shooting phase, from the second battle round onwards.\n  UNITS: One friendly unit within range of one objective (excluding your home objective).\n  USE LIMIT: Once per turn.\n  COMPLETES: End of your turn, if your unit controls that objective.\n  EFFECT: That objective is triangulated: place one of your operation markers within range of that objective.",
+      "rulesText": "SECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP: You control one or more objectives (excluding your home objective).\nSECOND BATTLE ROUND ONWARDS - End of your turn:\n  3VP: One objective is triangulated (see reverse).\n  OR 6VP: Two objectives are triangulated.\n  OR 10VP: Three or more objectives are triangulated.\nEND OF BATTLE:\n  10VP: You control four or more objectives.",
+      "vp": "4, 3, 6, 10",
+      "whenScored": "SECOND BATTLE ROUND ONWARDS; END OF BATTLE",
+      "image": "Cards/triangulation"
+    },
+    {
+      "name": "Extract Relic",
+      "deck": "Priority Assets",
+      "vsDeck": "Disruption",
+      "setupRule": "ACTION - SENSOR SWEEP (reverse of card):\n  STARTS: Your Shooting phase.\n  UNITS: One friendly unit within range of one central objective.\n  USE LIMIT: Once per turn.\n  COMPLETES: End of your turn, if your unit controls that objective.\n  EFFECT: Your unit performs a sensor sweep: remove one operation marker from the battlefield.\n  RESTRICTION: A unit cannot start this action if there is only one operation marker on the battlefield.",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  4VP: A friendly unit performed a sensor sweep this turn.\n  3VP: One or more enemy units that started the turn within range of one or more objectives are destroyed.\n  4VP: Only one of your opponent's operation markers is on the battlefield, if one or more of your units are within the same terrain area as that operation marker, and no enemy units are within that terrain area.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP: You control one or more objectives (excluding your home objective).\nEND OF BATTLE:\n  5VP: Only one of your opponent's operation markers is on the battlefield, if one or more of your units are within the same terrain area as that operation marker, and no enemy units are within that terrain area.",
+      "vp": "4, 3, 5",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS; END OF BATTLE",
+      "image": "Cards/extractrelic"
+    },
+    {
+      "name": "Sabotage",
+      "deck": "Priority Assets",
+      "vsDeck": "Priority Assets",
+      "setupRule": "ACTION - SABOTAGE (reverse of card):\n  STARTS: Your Shooting phase.\n  UNITS: One unit within range of one objective (excluding your home objective).\n  USE LIMIT: Unlimited. Each unit that starts this action this phase must be within range of a different objective.\n  COMPLETES: End of your turn, if that unit controls that objective.\n  EFFECT: Your unit commits sabotage.",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  3VP [per instance]: For each friendly unit that committed sabotage this turn (see reverse).\n  2VP [per instance, cumulative with above]: For each of those units that is within range of one or more objectives in your opponent's territory.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP: You control one or more objectives (excluding your home objective).",
+      "vp": "3, 2, 4",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS",
+      "image": "Cards/sabotage"
+    },
+    {
+      "name": "Secure Asset",
+      "deck": "Priority Assets",
+      "vsDeck": "Take and Hold",
+      "setupRule": "ACTION - SECURE ASSET (reverse of card):\n  STARTS: Your Shooting phase.\n  UNITS: One friendly unit within range of one objective (excluding your home objective).\n  USE LIMIT: Once per turn.\n  COMPLETES: End of your turn, if your unit controls that objective.\n  EFFECT: Your unit secures the asset.",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  4VP: A friendly unit secured the asset this turn (see reverse).\n  2VP: One or more enemy units that started the turn within range of one or more central objectives are destroyed.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP: You control one or more objectives (excluding your home objective).\n  4VP: You control three or more objectives.",
+      "vp": "4, 2",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS",
+      "image": "Cards/secureasset"
+    },
+    {
+      "name": "Vanguard Operation",
+      "deck": "Priority Assets",
+      "vsDeck": "Reconnaissance",
+      "setupRule": "ACTION - VANGUARD OPERATION (reverse of card):\n  STARTS: Your Shooting phase.\n  UNITS: One friendly unit within one terrain area that is within your opponent's territory.\n  USE LIMIT: Once per turn.\n  COMPLETES: End of your turn, if no enemy units are within that terrain area.\n  EFFECT: Your unit performs a vanguard operation.",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  4VP: A friendly unit performed a vanguard operation this turn.\n  2VP: One or more enemy units were destroyed this turn.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP: You control one or more objectives (excluding your home objective).\nEND OF BATTLE:\n  10VP: You control your opponent's home objective.",
+      "vp": "4, 2, 10",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS; END OF BATTLE",
+      "image": "Cards/vanguardoperation"
+    },
+    {
+      "name": "Vital Link",
+      "deck": "Priority Assets",
+      "vsDeck": "Purge the Foe",
+      "setupRule": "ACTION - MAINTAIN CONTROL (reverse of card):\n  STARTS: Your Shooting phase.\n  UNITS: One friendly unit within range of one central objective.\n  USE LIMIT: Once per turn.\n  COMPLETES: End of your turn, if your unit controls that objective.\n  EFFECT: Place one of your operation markers within range of that objective.",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  2VP: You control one or more central objectives.\n  1VP [per instance, cumulative with above]: For each of your operation markers within range of one of those objectives (see reverse).\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP: You control one or more objectives (excluding your home objective).\n  4VP [cumulative with above]: One or more of those objectives is a central objective.\nEND OF BATTLE:\n  10VP: You control your opponent's home objective.",
+      "vp": "2, 1, 4, 10",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS; END OF BATTLE",
+      "image": "Cards/vitallink"
+    },
+    {
+      "name": "Death Trap",
+      "deck": "Disruption",
+      "vsDeck": "Take and Hold",
+      "setupRule": "ACTION - BOOBY TRAP (reverse of card):\n  STARTS: Your Shooting phase.\n  UNITS: One friendly unit within range of one objective (excluding your home objective) or within one terrain area that is not within your deployment zone, that you have not yet trapped.\n  USE LIMIT: Unlimited. Each unit that starts this action this phase must be within a different terrain area.\n  COMPLETES: Immediately.\n  EFFECT: That terrain area is trapped: place one of your operation markers within that terrain area.",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  2VP [per instance]: For each terrain area trapped this turn.\n  3VP [per instance, cumulative with above]: For each of those terrain areas that is an objective.\nANY BATTLE ROUND - End of your turn:\n  3VP: One or more enemy units that started the turn within a terrain area were destroyed, if that terrain area is trapped.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP: You control one or more objectives (excluding your home objective).",
+      "vp": "2, 3, 4",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS",
+      "image": "Cards/deathtrap"
+    },
+    {
+      "name": "Delaying Action",
+      "deck": "Disruption",
+      "vsDeck": "Purge the Foe",
+      "setupRule": "",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  2VP [per instance]: For each enemy unit destroyed this turn.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP: You control one or more objectives (excluding home objectives).\nSECOND BATTLE ROUND ONWARDS - End of your turn:\n  3VP: You control one or more central objectives and one or more expansion objectives.",
+      "vp": "2, 4, 3",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS",
+      "image": "Cards/delayingaction"
+    },
+    {
+      "name": "Locate and Deny",
+      "deck": "Disruption",
+      "vsDeck": "Priority Assets",
+      "setupRule": "START OF THE BATTLE: Select five terrain areas not within your deployment zone; for each one, place one of your operation markers within it. If you cannot, do so for each terrain area that is not within your deployment zone.\nACTION - SENSOR SWEEP (reverse of card):\n  STARTS: Your Shooting phase.\n  UNITS: One friendly unit within range of one central objective.\n  USE LIMIT: Once per turn.\n  COMPLETES: End of your turn, if your unit controls that objective.\n  EFFECT: Your unit performs a sensor sweep: remove one operation marker from the battlefield.\n  RESTRICTION: A unit cannot start this action if there is only one operation marker on the battlefield.",
+      "rulesText": "SPECIAL RULE: START OF THE BATTLE: Select five terrain areas not within your deployment zone; for each one, place one of your operation markers within it. If you cannot, do so for each terrain area that is not within your deployment zone.\nANY BATTLE ROUND - End of your turn:\n  4VP: One or more enemy units that started the turn within range of one or more objectives are destroyed.\n  4VP: Only one of your operation markers is on the battlefield, if one or more of your units are within the same terrain area as that marker, and no enemy units are within that terrain area.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP: You control one or more objectives (excluding your home objective).\nEND OF BATTLE:\n  5VP: Only one of your operation markers is on the battlefield, if one or more of your units are within the same terrain area as that marker, and no enemy units are within that terrain area.",
+      "vp": "4, 5",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS; END OF BATTLE",
+      "image": "Cards/locateanddeny"
+    },
+    {
+      "name": "Outmanoeuvre",
+      "deck": "Disruption",
+      "vsDeck": "Disruption",
+      "setupRule": "",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  10VP: You control your opponent's home objective.\nFIRST BATTLE ROUND - End of your turn:\n  4VP [per instance]: For each objective you control (excluding your home objective).\nSECOND & THIRD BATTLE ROUND - End of your Command phase:\n  5VP [per instance]: For each objective you control (excluding your home objective).\nFOURTH BATTLE ROUND ONWARDS - End of your turn:\n  6VP [per instance]: For each objective you control (excluding your home objective).",
+      "vp": "10, 4, 5, 6",
+      "whenScored": "ANY BATTLE ROUND; FIRST BATTLE ROUND; SECOND & THIRD BATTLE ROUND; FOURTH BATTLE ROUND ONWARDS",
+      "image": "Cards/outmanoeuvre"
+    },
+    {
+      "name": "Smoke and Mirrors",
+      "deck": "Disruption",
+      "vsDeck": "Reconnaissance",
+      "setupRule": "ACTION - DECOY (reverse of card):\n  STARTS: Your Shooting phase.\n  UNITS: One friendly unit within range of one objective (excluding your home objective) that is not decoyed.\n  USE LIMIT: Unlimited. Each unit that starts this action this phase must be within range of a different objective.\n  COMPLETES: End of your turn, if your unit controls that objective.\n  EFFECT: That objective is decoyed: place one of your operation markers within range of that objective.",
+      "rulesText": "ANY BATTLE ROUND - End of your turn:\n  2VP [per instance]: For each objective that is decoyed (see reverse).\n  2VP [per instance, cumulative with above]: For each of those objectives that is within your opponent's territory.\nSECOND BATTLE ROUND ONWARDS - End of your Command phase (or the end of your turn in the fifth battle round):\n  4VP: You control one or more objectives (excluding your home objective).\nEND OF BATTLE:\n  10VP: Four or more objectives are decoyed.",
+      "vp": "2, 4, 10",
+      "whenScored": "ANY BATTLE ROUND; SECOND BATTLE ROUND ONWARDS; END OF BATTLE",
+      "image": "Cards/smokeandmirrors"
+    }
+  ],
+  "secondaryCards": [
+    {
+      "name": "A Grievous Blow",
+      "fixedCapable": true,
+      "rulesText": "Header: SECONDARY - FIXED / TACTICAL. WHEN DRAWN: if there are no enemy units with a starting strength of 13 or more on the battlefield, you can discard this card and draw one new Secondary Mission card. FIXED block (any battle round, end of a turn): score 4 VP for each enemy unit with a starting strength of 13 or more that is destroyed this turn. TACTICAL block (any battle round, end of a turn): score 5 VP if one or more enemy units with a starting strength of 13 or more were destroyed this turn.",
+      "vp": "Fixed: 4 VP per qualifying unit; Tactical: 5 VP flat",
+      "whenScored": "End of a turn (any battle round)",
+      "discardRules": "When drawn: if no enemy units with starting strength 13+ are on the battlefield, you can discard this card and draw one new Secondary Mission card.",
+      "image": "Cards/agrievousblow"
+    },
+    {
+      "name": "A Tempting Target",
+      "fixedCapable": false,
+      "rulesText": "Header: SECONDARY - TACTICAL. WHEN DRAWN: your opponent selects one objective (excluding home objectives) within No Man's Land to be your tempting target. TACTICAL block (any battle round, end of your turn): score 5 VP if you control your tempting target.",
+      "vp": "5 VP flat",
+      "whenScored": "End of your turn (any battle round)",
+      "discardRules": "",
+      "image": "Cards/atemptingtarget"
+    },
+    {
+      "name": "Assassination",
+      "fixedCapable": true,
+      "rulesText": "Header: SECONDARY - FIXED / TACTICAL. FIXED block (any battle round, while this card is active): score 3 VP for each enemy CHARACTER model destroyed this turn, plus (cumulative) +1 VP for each of those models with a Wounds characteristic of 4 or more. TACTICAL block (any battle round, end of either player's turn): score 5 VP if one or more enemy CHARACTER models were destroyed this turn, OR score 5 VP if all enemy CHARACTER models have been destroyed during the battle.",
+      "vp": "Fixed: 3 VP per CHARACTER model (+1 VP cumulative if W4+); Tactical: 5 VP",
+      "whenScored": "Fixed: while this card is active (any battle round); Tactical: end of either player's turn",
+      "discardRules": "",
+      "image": "Cards/assassination"
+    },
+    {
+      "name": "Beacon",
+      "fixedCapable": false,
+      "rulesText": "Header: SECONDARY - TACTICAL. WHEN DRAWN: select one friendly unit on the battlefield, or embarked within a TRANSPORT on the battlefield, to be your beacon unit. TACTICAL block (any battle round; end of your opponent's turn or the end of the fifth battle round, whichever comes first): score 3 VP if your beacon unit is on the battlefield and not within your deployment zone, OR score 5 VP if your beacon unit is on the battlefield and not within your territory.",
+      "vp": "3 VP or 5 VP",
+      "whenScored": "End of your opponent's turn or end of the fifth battle round, whichever comes first (any battle round)",
+      "discardRules": "",
+      "image": "Cards/beacon"
+    },
+    {
+      "name": "Behind Enemy Lines",
+      "fixedCapable": false,
+      "rulesText": "Header: SECONDARY - TACTICAL. WHEN DRAWN: if it is the first battle round, you can draw one new Secondary Mission card and shuffle this card back into your Secondary Mission deck. TACTICAL block (any battle round, end of your turn): score 3 VP for each friendly unit (excluding AIRCRAFT and battle-shocked units) wholly within your opponent's deployment zone. Maximum 5 VP.",
+      "vp": "3 VP per qualifying unit, max 5 VP",
+      "whenScored": "End of your turn (any battle round)",
+      "discardRules": "When drawn: if it is the first battle round, you can draw one new Secondary Mission card and shuffle this card back into your Secondary Mission deck.",
+      "image": "Cards/behindenemylines"
+    },
+    {
+      "name": "Bring it Down",
+      "fixedCapable": true,
+      "rulesText": "Header: SECONDARY - FIXED / TACTICAL. WHEN DRAWN: if there are no enemy models with a Wounds characteristic of 10 or more on the battlefield, you can discard this card and draw one new Secondary Mission card. FIXED block (any battle round, end of a turn): score 4 VP for each enemy model with a Wounds characteristic of 10 or more that is destroyed this turn. TACTICAL block (any battle round, end of a turn): score 5 VP if one or more enemy models with a Wounds characteristic of 10 or more were destroyed this turn.",
+      "vp": "Fixed: 4 VP per qualifying model; Tactical: 5 VP flat",
+      "whenScored": "End of a turn (any battle round)",
+      "discardRules": "When drawn: if no enemy models with a Wounds characteristic of 10+ are on the battlefield, you can discard this card and draw one new Secondary Mission card.",
+      "image": "Cards/bringitdown"
+    },
+    {
+      "name": "Burden of Trust",
+      "fixedCapable": false,
+      "rulesText": "Header: SECONDARY - TACTICAL. WHEN DRAWN / START OF YOUR TURN: for each objective, you can select one friendly unit on the battlefield to guard that objective. Until the start of your next turn, while that unit is within range of that objective and while you control that objective, that objective is guarded by your army. TACTICAL block (any battle round; end of your opponent's turn or the end of the fifth battle round, whichever comes first): score 2 VP for each objective guarded by your army. Maximum 5 VP.",
+      "vp": "2 VP per guarded objective, max 5 VP",
+      "whenScored": "End of your opponent's turn or end of the fifth battle round, whichever comes first (any battle round)",
+      "discardRules": "",
+      "image": "Cards/burdenoftrust"
+    },
+    {
+      "name": "Centre Ground",
+      "fixedCapable": false,
+      "rulesText": "Header: SECONDARY - TACTICAL. TACTICAL block (any battle round, end of your turn): score 3 VP if one or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 3\" of the centre of the battlefield and no enemy units are within 3\" of the centre of the battlefield, OR score 5 VP if one or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 3\" of the centre of the battlefield and no enemy units are within 6\" of the centre of the battlefield.",
+      "vp": "3 VP or 5 VP",
+      "whenScored": "End of your turn (any battle round)",
+      "discardRules": "",
+      "image": "Cards/centreground"
+    },
+    {
+      "name": "Cleanse",
+      "fixedCapable": false,
+      "rulesText": "Header: SECONDARY - TACTICAL. WHEN DRAWN: if the Plunder Secondary Mission is active for you, you can draw one new Secondary Mission card and shuffle this card back into your Secondary Mission deck. CLEANSE (Objective Action) - STARTS: your Shooting phase. UNITS: one friendly unit within range of one objective (excluding your home objective). USE LIMIT: unlimited; each unit that starts this action this phase must be within range of a different objective. COMPLETES: end of your turn, if that unit is controlling that objective. EFFECT: that objective is cleansed by your army. TACTICAL block (any battle round, end of your turn): score 2 VP if one objective was cleansed by your army this turn, OR score 5 VP if two or more objectives were cleansed by your army this turn.",
+      "vp": "2 VP or 5 VP",
+      "whenScored": "End of your turn (any battle round)",
+      "discardRules": "When drawn: if the Plunder Secondary Mission is active for you, you can draw one new Secondary Mission card and shuffle this card back into your Secondary Mission deck.",
+      "image": "Cards/cleanse"
+    },
+    {
+      "name": "Defend Stronghold",
+      "fixedCapable": false,
+      "rulesText": "Header: SECONDARY - TACTICAL. WHEN DRAWN: if it is the first battle round, draw one new Secondary Mission card and shuffle this card back into your Secondary Mission deck (mandatory). TACTICAL block (second battle round onwards; end of your opponent's turn or the end of the fifth battle round, whichever comes first): score 3 VP if you control your home objective, plus (cumulative) +2 VP if no enemy units are within your deployment zone.",
+      "vp": "3 VP, +2 VP cumulative (5 VP total possible)",
+      "whenScored": "Second battle round onwards; end of your opponent's turn or end of the fifth battle round, whichever comes first",
+      "discardRules": "When drawn: if it is the first battle round, draw one new Secondary Mission card and shuffle this card back into your Secondary Mission deck (mandatory, not optional).",
+      "image": "Cards/defendstronghold"
+    },
+    {
+      "name": "Display of Might",
+      "fixedCapable": false,
+      "rulesText": "Header: SECONDARY - TACTICAL. TACTICAL block 1 (any battle round, end of your turn): score 2 VP if there are more friendly units than enemy units (excluding AIRCRAFT and battle-shocked units) wholly within No Man's Land. TACTICAL block 2 (any battle round, end of your opponent's turn): score 5 VP if there are more friendly units than enemy units (excluding AIRCRAFT and battle-shocked units) wholly within No Man's Land.",
+      "vp": "2 VP (your turn) or 5 VP (opponent's turn)",
+      "whenScored": "End of your turn (2 VP) and end of your opponent's turn (5 VP), any battle round",
+      "discardRules": "",
+      "image": "Cards/displayofmight"
+    },
+    {
+      "name": "Engage on All Fronts",
+      "fixedCapable": true,
+      "rulesText": "Header: SECONDARY - FIXED / TACTICAL. Definition: if one or more friendly units (excluding AIRCRAFT and battle-shocked units) are wholly within a table quarter, and those units are not within 6\" of the centre of the battlefield, you have a presence in that table quarter. FIXED block (any battle round, end of your turn): score 2 VP if you have a presence in three table quarters, OR 4 VP if you have a presence in four table quarters. TACTICAL block (any battle round, end of your turn): score 3 VP if you have a presence in three table quarters, OR 5 VP if you have a presence in four table quarters.",
+      "vp": "Fixed: 2 or 4 VP; Tactical: 3 or 5 VP",
+      "whenScored": "End of your turn (any battle round)",
+      "discardRules": "",
+      "image": "Cards/engageonallfronts"
+    },
+    {
+      "name": "Forward Position",
+      "fixedCapable": false,
+      "rulesText": "Header: SECONDARY - TACTICAL. WHEN DRAWN: if it is the first battle round, you can draw one new Secondary Mission card and shuffle this card back into your Secondary Mission deck. TACTICAL block (any battle round, end of your turn): score 5 VP if you control your opponent's home objective and/or each expansion objective.",
+      "vp": "5 VP flat",
+      "whenScored": "End of your turn (any battle round)",
+      "discardRules": "When drawn: if it is the first battle round, you can draw one new Secondary Mission card and shuffle this card back into your Secondary Mission deck.",
+      "image": "Cards/forwardposition"
+    },
+    {
+      "name": "No Prisoners",
+      "fixedCapable": false,
+      "rulesText": "Header: SECONDARY - TACTICAL. TACTICAL block (any battle round, end of a turn): score 2 VP for each enemy unit destroyed this turn. Maximum 5 VP.",
+      "vp": "2 VP per enemy unit destroyed, max 5 VP",
+      "whenScored": "End of a turn (any battle round)",
+      "discardRules": "",
+      "image": "Cards/noprisoners"
+    },
+    {
+      "name": "Outflank",
+      "fixedCapable": false,
+      "rulesText": "Header: SECONDARY - TACTICAL. TACTICAL block (any battle round, end of your turn): score 3 VP if one or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 6\" of one or more battlefield edges and not within your territory, OR score 5 VP if two or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 6\" of opposite battlefield edges and one or more of those units is not within your territory. Designer's Note: opposite battlefield edges are those parallel to each other.",
+      "vp": "3 VP or 5 VP",
+      "whenScored": "End of your turn (any battle round)",
+      "discardRules": "",
+      "image": "Cards/outflank"
+    },
+    {
+      "name": "Overwhelming Force",
+      "fixedCapable": false,
+      "rulesText": "Header: SECONDARY - TACTICAL. TACTICAL block (any battle round, end of a turn): score 3 VP for each enemy unit that started the turn within range of one or more objectives and is destroyed. Maximum 5 VP.",
+      "vp": "3 VP per qualifying unit, max 5 VP",
+      "whenScored": "End of a turn (any battle round)",
+      "discardRules": "",
+      "image": "Cards/overwhelmingforce"
+    },
+    {
+      "name": "Plunder",
+      "fixedCapable": false,
+      "rulesText": "Header: SECONDARY - TACTICAL. WHEN DRAWN: if the Cleanse Secondary Mission is active for you, you can draw one new Secondary Mission card and shuffle this card back into your Secondary Mission deck. PLUNDER (Objective Action) - STARTS: your Shooting phase. UNITS: one unit within a terrain area that is not within your territory. USE LIMIT: once per turn. COMPLETES: immediately. EFFECT: that terrain area is plundered. TACTICAL block (any battle round, end of your turn): score 5 VP if a terrain area was plundered this turn.",
+      "vp": "5 VP flat",
+      "whenScored": "End of your turn (any battle round)",
+      "discardRules": "When drawn: if the Cleanse Secondary Mission is active for you, you can draw one new Secondary Mission card and shuffle this card back into your Secondary Mission deck.",
+      "image": "Cards/plunder"
+    },
+    {
+      "name": "Secure No Man's Land",
+      "fixedCapable": false,
+      "rulesText": "Header: SECONDARY - TACTICAL. TACTICAL block (any battle round, end of your turn): score 5 VP if you control two or more objectives within No Man's Land (excluding your home objective).",
+      "vp": "5 VP flat",
+      "whenScored": "End of your turn (any battle round)",
+      "discardRules": "",
+      "image": "Cards/securenomansland"
+    }
+  ],
+  "dispositions": [
+    {
+      "name": "Take and Hold",
+      "slug": "takeandhold",
+      "rulesText": "FORCE DISPOSITION - YOUR STANCE: TAKE AND HOLD. The card is a lookup table (columns: YOU / MISSION / OPPONENT): find your opponent's Force Disposition symbol on this card; the Primary Mission listed beside that symbol is YOUR Primary Mission, which describes how you score VP. If your opponent's Force Disposition is Take and Hold, your Primary Mission is Battlefield Dominance. If your opponent's Force Disposition is Purge the Foe, your Primary Mission is Immovable Object. If your opponent's Force Disposition is Disruption, your Primary Mission is Determined Acquisition. If your opponent's Force Disposition is Reconnaissance, your Primary Mission is Purge and Secure. If your opponent's Force Disposition is Priority Assets, your Primary Mission is Inescapable Dominion. (Per the Warhammer Event Mission Sequence: once a player has mustered their army, they select one Force Disposition card available to them - determined by their selected detachments - and record it on their roster. Each player determines their own Primary Mission independently from their own card, so the two players may be playing different Primary Missions in the same game.)",
+      "image": "Cards/takeandholddisposition"
+    },
+    {
+      "name": "Purge the Foe",
+      "slug": "purgethefoe",
+      "rulesText": "FORCE DISPOSITION - YOUR STANCE: PURGE THE FOE. The card is a lookup table (columns: YOU / MISSION / OPPONENT): find your opponent's Force Disposition symbol on this card; the Primary Mission listed beside that symbol is YOUR Primary Mission, which describes how you score VP. If your opponent's Force Disposition is Take and Hold, your Primary Mission is Unstoppable Force. If your opponent's Force Disposition is Purge the Foe, your Primary Mission is Meatgrinder. If your opponent's Force Disposition is Disruption, your Primary Mission is Punishment. If your opponent's Force Disposition is Reconnaissance, your Primary Mission is Consecrate. If your opponent's Force Disposition is Priority Assets, your Primary Mission is Destroyer's Wrath. (Per the Warhammer Event Mission Sequence: once a player has mustered their army, they select one Force Disposition card available to them - determined by their selected detachments - and record it on their roster. Each player determines their own Primary Mission independently from their own card, so the two players may be playing different Primary Missions in the same game.)",
+      "image": "Cards/purgethefoedisposition"
+    },
+    {
+      "name": "Reconnaissance",
+      "slug": "reconnaissance",
+      "rulesText": "FORCE DISPOSITION - YOUR STANCE: RECONNAISSANCE. The card is a lookup table (columns: YOU / MISSION / OPPONENT): find your opponent's Force Disposition symbol on this card; the Primary Mission listed beside that symbol is YOUR Primary Mission, which describes how you score VP. If your opponent's Force Disposition is Take and Hold, your Primary Mission is Reconnaissance Sweep. If your opponent's Force Disposition is Purge the Foe, your Primary Mission is Triangulation. If your opponent's Force Disposition is Disruption, your Primary Mission is Surveil the Foe. If your opponent's Force Disposition is Reconnaissance, your Primary Mission is Gather Intel. If your opponent's Force Disposition is Priority Assets, your Primary Mission is Search and Scour. (Per the Warhammer Event Mission Sequence: once a player has mustered their army, they select one Force Disposition card available to them - determined by their selected detachments - and record it on their roster. Each player determines their own Primary Mission independently from their own card, so the two players may be playing different Primary Missions in the same game.)",
+      "image": "Cards/reconnaissancedisposition"
+    },
+    {
+      "name": "Priority Assets",
+      "slug": "priorityassets",
+      "rulesText": "FORCE DISPOSITION - YOUR STANCE: PRIORITY ASSETS. The card is a lookup table (columns: YOU / MISSION / OPPONENT): find your opponent's Force Disposition symbol on this card; the Primary Mission listed beside that symbol is YOUR Primary Mission, which describes how you score VP. If your opponent's Force Disposition is Take and Hold, your Primary Mission is Secure Asset. If your opponent's Force Disposition is Purge the Foe, your Primary Mission is Vital Link. If your opponent's Force Disposition is Disruption, your Primary Mission is Extract Relic. If your opponent's Force Disposition is Reconnaissance, your Primary Mission is Vanguard Operation. If your opponent's Force Disposition is Priority Assets, your Primary Mission is Sabotage. (Per the Warhammer Event Mission Sequence: once a player has mustered their army, they select one Force Disposition card available to them - determined by their selected detachments - and record it on their roster. Each player determines their own Primary Mission independently from their own card, so the two players may be playing different Primary Missions in the same game.)",
+      "image": "Cards/priorityassetsdisposition"
+    },
+    {
+      "name": "Disruption",
+      "slug": "disruption",
+      "rulesText": "FORCE DISPOSITION - YOUR STANCE: DISRUPTION. The card is a lookup table (columns: YOU / MISSION / OPPONENT): find your opponent's Force Disposition symbol on this card; the Primary Mission listed beside that symbol is YOUR Primary Mission, which describes how you score VP. If your opponent's Force Disposition is Take and Hold, your Primary Mission is Death Trap. If your opponent's Force Disposition is Purge the Foe, your Primary Mission is Delaying Action. If your opponent's Force Disposition is Disruption, your Primary Mission is Outmanoeuvre. If your opponent's Force Disposition is Reconnaissance, your Primary Mission is Smoke and Mirrors. If your opponent's Force Disposition is Priority Assets, your Primary Mission is Locate and Deny. (Per the Warhammer Event Mission Sequence: once a player has mustered their army, they select one Force Disposition card available to them - determined by their selected detachments - and record it on their roster. Each player determines their own Primary Mission independently from their own card, so the two players may be playing different Primary Missions in the same game.)",
+      "image": "Cards/disruptiondisposition"
+    }
+  ],
+  "matrix": {
+    "Take and Hold": {
+      "Take and Hold": "Battlefield Dominance",
+      "Purge the Foe": "Immovable Object",
+      "Disruption": "Determined Acquisition",
+      "Reconnaissance": "Purge and Secure",
+      "Priority Assets": "Inescapable Dominion"
+    },
+    "Purge the Foe": {
+      "Take and Hold": "Unstoppable Force",
+      "Purge the Foe": "Meatgrinder",
+      "Disruption": "Punishment",
+      "Reconnaissance": "Consecrate",
+      "Priority Assets": "Destroyer's Wrath"
+    },
+    "Disruption": {
+      "Take and Hold": "Death Trap",
+      "Purge the Foe": "Delaying Action",
+      "Disruption": "Outmanoeuvre",
+      "Reconnaissance": "Smoke and Mirrors",
+      "Priority Assets": "Locate and Deny"
+    },
+    "Reconnaissance": {
+      "Take and Hold": "Reconnaissance Sweep",
+      "Purge the Foe": "Triangulation",
+      "Disruption": "Surveil the Foe",
+      "Reconnaissance": "Gather Intel",
+      "Priority Assets": "Search and Scour"
+    },
+    "Priority Assets": {
+      "Take and Hold": "Secure Asset",
+      "Purge the Foe": "Vital Link",
+      "Disruption": "Extract Relic",
+      "Reconnaissance": "Vanguard Operation",
+      "Priority Assets": "Sabotage"
+    }
+  },
+  "layouts": [
+    {
+      "name": "A",
+      "matchup": "Take and Hold Mirror",
+      "homeDisposition": "Take and Hold",
+      "oppDisposition": "Take and Hold",
+      "imagePlain": "Maps/takeandholdmirrora-plain",
+      "imageMeasured": "Maps/takeandholdmirrora-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Take and Hold Mirror",
+      "homeDisposition": "Take and Hold",
+      "oppDisposition": "Take and Hold",
+      "imagePlain": "Maps/takeandholdmirrorb-plain",
+      "imageMeasured": "Maps/takeandholdmirrorb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Take and Hold Mirror",
+      "homeDisposition": "Take and Hold",
+      "oppDisposition": "Take and Hold",
+      "imagePlain": "Maps/takeandholdmirrorc-plain",
+      "imageMeasured": "Maps/takeandholdmirrorc-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Take and Hold vs Purge the Foe",
+      "homeDisposition": "Take and Hold",
+      "oppDisposition": "Purge the Foe",
+      "imagePlain": "Maps/takeandholdvspurgethefoea-plain",
+      "imageMeasured": "Maps/takeandholdvspurgethefoea-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Take and Hold vs Purge the Foe",
+      "homeDisposition": "Take and Hold",
+      "oppDisposition": "Purge the Foe",
+      "imagePlain": "Maps/takeandholdvspurgethefoeb-plain",
+      "imageMeasured": "Maps/takeandholdvspurgethefoeb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Take and Hold vs Purge the Foe",
+      "homeDisposition": "Take and Hold",
+      "oppDisposition": "Purge the Foe",
+      "imagePlain": "Maps/takeandholdvspurgethefoec-plain",
+      "imageMeasured": "Maps/takeandholdvspurgethefoec-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Take and Hold vs Reconnaissance",
+      "homeDisposition": "Take and Hold",
+      "oppDisposition": "Reconnaissance",
+      "imagePlain": "Maps/takeandholdvsreconnaissancea-plain",
+      "imageMeasured": "Maps/takeandholdvsreconnaissancea-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Take and Hold vs Reconnaissance",
+      "homeDisposition": "Take and Hold",
+      "oppDisposition": "Reconnaissance",
+      "imagePlain": "Maps/takeandholdvsreconnaissanceb-plain",
+      "imageMeasured": "Maps/takeandholdvsreconnaissanceb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Take and Hold vs Reconnaissance",
+      "homeDisposition": "Take and Hold",
+      "oppDisposition": "Reconnaissance",
+      "imagePlain": "Maps/takeandholdvsreconnaissancec-plain",
+      "imageMeasured": "Maps/takeandholdvsreconnaissancec-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Take and Hold vs Priority Assets",
+      "homeDisposition": "Take and Hold",
+      "oppDisposition": "Priority Assets",
+      "imagePlain": "Maps/takeandholdvspriorityassetsa-plain",
+      "imageMeasured": "Maps/takeandholdvspriorityassetsa-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Take and Hold vs Priority Assets",
+      "homeDisposition": "Take and Hold",
+      "oppDisposition": "Priority Assets",
+      "imagePlain": "Maps/takeandholdvspriorityassetsb-plain",
+      "imageMeasured": "Maps/takeandholdvspriorityassetsb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Take and Hold vs Priority Assets",
+      "homeDisposition": "Take and Hold",
+      "oppDisposition": "Priority Assets",
+      "imagePlain": "Maps/takeandholdvspriorityassetsc-plain",
+      "imageMeasured": "Maps/takeandholdvspriorityassetsc-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Take and Hold vs Disruption",
+      "homeDisposition": "Take and Hold",
+      "oppDisposition": "Disruption",
+      "imagePlain": "Maps/takeandholdvsdisruptiona-plain",
+      "imageMeasured": "Maps/takeandholdvsdisruptiona-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Take and Hold vs Disruption",
+      "homeDisposition": "Take and Hold",
+      "oppDisposition": "Disruption",
+      "imagePlain": "Maps/takeandholdvsdisruptionb-plain",
+      "imageMeasured": "Maps/takeandholdvsdisruptionb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Take and Hold vs Disruption",
+      "homeDisposition": "Take and Hold",
+      "oppDisposition": "Disruption",
+      "imagePlain": "Maps/takeandholdvsdisruptionc-plain",
+      "imageMeasured": "Maps/takeandholdvsdisruptionc-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Take and Hold vs Purge the Foe",
+      "homeDisposition": "Purge the Foe",
+      "oppDisposition": "Take and Hold",
+      "imagePlain": "Maps/takeandholdvspurgethefoea-plain",
+      "imageMeasured": "Maps/takeandholdvspurgethefoea-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Take and Hold vs Purge the Foe",
+      "homeDisposition": "Purge the Foe",
+      "oppDisposition": "Take and Hold",
+      "imagePlain": "Maps/takeandholdvspurgethefoeb-plain",
+      "imageMeasured": "Maps/takeandholdvspurgethefoeb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Take and Hold vs Purge the Foe",
+      "homeDisposition": "Purge the Foe",
+      "oppDisposition": "Take and Hold",
+      "imagePlain": "Maps/takeandholdvspurgethefoec-plain",
+      "imageMeasured": "Maps/takeandholdvspurgethefoec-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Purge the Foe Mirror",
+      "homeDisposition": "Purge the Foe",
+      "oppDisposition": "Purge the Foe",
+      "imagePlain": "Maps/purgethefoemirrora-plain",
+      "imageMeasured": "Maps/purgethefoemirrora-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Purge the Foe Mirror",
+      "homeDisposition": "Purge the Foe",
+      "oppDisposition": "Purge the Foe",
+      "imagePlain": "Maps/purgethefoemirrorb-plain",
+      "imageMeasured": "Maps/purgethefoemirrorb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Purge the Foe Mirror",
+      "homeDisposition": "Purge the Foe",
+      "oppDisposition": "Purge the Foe",
+      "imagePlain": "Maps/purgethefoemirrorc-plain",
+      "imageMeasured": "Maps/purgethefoemirrorc-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Purge the Foe vs Reconnaissance",
+      "homeDisposition": "Purge the Foe",
+      "oppDisposition": "Reconnaissance",
+      "imagePlain": "Maps/purgethefoevsreconnaissancea-plain",
+      "imageMeasured": "Maps/purgethefoevsreconnaissancea-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Purge the Foe vs Reconnaissance",
+      "homeDisposition": "Purge the Foe",
+      "oppDisposition": "Reconnaissance",
+      "imagePlain": "Maps/purgethefoevsreconnaissanceb-plain",
+      "imageMeasured": "Maps/purgethefoevsreconnaissanceb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Purge the Foe vs Reconnaissance",
+      "homeDisposition": "Purge the Foe",
+      "oppDisposition": "Reconnaissance",
+      "imagePlain": "Maps/purgethefoevsreconnaissancec-plain",
+      "imageMeasured": "Maps/purgethefoevsreconnaissancec-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Purge the Foe vs Priority Assets",
+      "homeDisposition": "Purge the Foe",
+      "oppDisposition": "Priority Assets",
+      "imagePlain": "Maps/purgethefoevspriorityassetsa-plain",
+      "imageMeasured": "Maps/purgethefoevspriorityassetsa-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Purge the Foe vs Priority Assets",
+      "homeDisposition": "Purge the Foe",
+      "oppDisposition": "Priority Assets",
+      "imagePlain": "Maps/purgethefoevspriorityassetsb-plain",
+      "imageMeasured": "Maps/purgethefoevspriorityassetsb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Purge the Foe vs Priority Assets",
+      "homeDisposition": "Purge the Foe",
+      "oppDisposition": "Priority Assets",
+      "imagePlain": "Maps/purgethefoevspriorityassetsc-plain",
+      "imageMeasured": "Maps/purgethefoevspriorityassetsc-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Disruption vs Purge the Foe",
+      "homeDisposition": "Purge the Foe",
+      "oppDisposition": "Disruption",
+      "imagePlain": "Maps/disruptionvspurgethefoea-plain",
+      "imageMeasured": "Maps/disruptionvspurgethefoea-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Disruption vs Purge the Foe",
+      "homeDisposition": "Purge the Foe",
+      "oppDisposition": "Disruption",
+      "imagePlain": "Maps/disruptionvspurgethefoeb-plain",
+      "imageMeasured": "Maps/disruptionvspurgethefoeb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Disruption vs Purge the Foe",
+      "homeDisposition": "Purge the Foe",
+      "oppDisposition": "Disruption",
+      "imagePlain": "Maps/disruptionvspurgethefoec-plain",
+      "imageMeasured": "Maps/disruptionvspurgethefoec-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Take and Hold vs Reconnaissance",
+      "homeDisposition": "Reconnaissance",
+      "oppDisposition": "Take and Hold",
+      "imagePlain": "Maps/takeandholdvsreconnaissancea-plain",
+      "imageMeasured": "Maps/takeandholdvsreconnaissancea-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Take and Hold vs Reconnaissance",
+      "homeDisposition": "Reconnaissance",
+      "oppDisposition": "Take and Hold",
+      "imagePlain": "Maps/takeandholdvsreconnaissanceb-plain",
+      "imageMeasured": "Maps/takeandholdvsreconnaissanceb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Take and Hold vs Reconnaissance",
+      "homeDisposition": "Reconnaissance",
+      "oppDisposition": "Take and Hold",
+      "imagePlain": "Maps/takeandholdvsreconnaissancec-plain",
+      "imageMeasured": "Maps/takeandholdvsreconnaissancec-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Purge the Foe vs Reconnaissance",
+      "homeDisposition": "Reconnaissance",
+      "oppDisposition": "Purge the Foe",
+      "imagePlain": "Maps/purgethefoevsreconnaissancea-plain",
+      "imageMeasured": "Maps/purgethefoevsreconnaissancea-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Purge the Foe vs Reconnaissance",
+      "homeDisposition": "Reconnaissance",
+      "oppDisposition": "Purge the Foe",
+      "imagePlain": "Maps/purgethefoevsreconnaissanceb-plain",
+      "imageMeasured": "Maps/purgethefoevsreconnaissanceb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Purge the Foe vs Reconnaissance",
+      "homeDisposition": "Reconnaissance",
+      "oppDisposition": "Purge the Foe",
+      "imagePlain": "Maps/purgethefoevsreconnaissancec-plain",
+      "imageMeasured": "Maps/purgethefoevsreconnaissancec-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Reconnaissance Mirror",
+      "homeDisposition": "Reconnaissance",
+      "oppDisposition": "Reconnaissance",
+      "imagePlain": "Maps/reconnaissancemirrora-plain",
+      "imageMeasured": "Maps/reconnaissancemirrora-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Reconnaissance Mirror",
+      "homeDisposition": "Reconnaissance",
+      "oppDisposition": "Reconnaissance",
+      "imagePlain": "Maps/reconnaissancemirrorb-plain",
+      "imageMeasured": "Maps/reconnaissancemirrorb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Reconnaissance Mirror",
+      "homeDisposition": "Reconnaissance",
+      "oppDisposition": "Reconnaissance",
+      "imagePlain": "Maps/reconnaissancemirrorc-plain",
+      "imageMeasured": "Maps/reconnaissancemirrorc-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Priority Assets vs Reconnaissance",
+      "homeDisposition": "Reconnaissance",
+      "oppDisposition": "Priority Assets",
+      "imagePlain": "Maps/priorityassetsvsreconnaissancea-plain",
+      "imageMeasured": "Maps/priorityassetsvsreconnaissancea-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Priority Assets vs Reconnaissance",
+      "homeDisposition": "Reconnaissance",
+      "oppDisposition": "Priority Assets",
+      "imagePlain": "Maps/priorityassetsvsreconnaissanceb-plain",
+      "imageMeasured": "Maps/priorityassetsvsreconnaissanceb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Priority Assets vs Reconnaissance",
+      "homeDisposition": "Reconnaissance",
+      "oppDisposition": "Priority Assets",
+      "imagePlain": "Maps/priorityassetsvsreconnaissancec-plain",
+      "imageMeasured": "Maps/priorityassetsvsreconnaissancec-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Disruption vs Reconnaissance",
+      "homeDisposition": "Reconnaissance",
+      "oppDisposition": "Disruption",
+      "imagePlain": "Maps/disruptionvsreconnaissancea-plain",
+      "imageMeasured": "Maps/disruptionvsreconnaissancea-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Disruption vs Reconnaissance",
+      "homeDisposition": "Reconnaissance",
+      "oppDisposition": "Disruption",
+      "imagePlain": "Maps/disruptionvsreconnaissanceb-plain",
+      "imageMeasured": "Maps/disruptionvsreconnaissanceb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Disruption vs Reconnaissance",
+      "homeDisposition": "Reconnaissance",
+      "oppDisposition": "Disruption",
+      "imagePlain": "Maps/disruptionvsreconnaissancec-plain",
+      "imageMeasured": "Maps/disruptionvsreconnaissancec-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Take and Hold vs Priority Assets",
+      "homeDisposition": "Priority Assets",
+      "oppDisposition": "Take and Hold",
+      "imagePlain": "Maps/takeandholdvspriorityassetsa-plain",
+      "imageMeasured": "Maps/takeandholdvspriorityassetsa-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Take and Hold vs Priority Assets",
+      "homeDisposition": "Priority Assets",
+      "oppDisposition": "Take and Hold",
+      "imagePlain": "Maps/takeandholdvspriorityassetsb-plain",
+      "imageMeasured": "Maps/takeandholdvspriorityassetsb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Take and Hold vs Priority Assets",
+      "homeDisposition": "Priority Assets",
+      "oppDisposition": "Take and Hold",
+      "imagePlain": "Maps/takeandholdvspriorityassetsc-plain",
+      "imageMeasured": "Maps/takeandholdvspriorityassetsc-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Purge the Foe vs Priority Assets",
+      "homeDisposition": "Priority Assets",
+      "oppDisposition": "Purge the Foe",
+      "imagePlain": "Maps/purgethefoevspriorityassetsa-plain",
+      "imageMeasured": "Maps/purgethefoevspriorityassetsa-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Purge the Foe vs Priority Assets",
+      "homeDisposition": "Priority Assets",
+      "oppDisposition": "Purge the Foe",
+      "imagePlain": "Maps/purgethefoevspriorityassetsb-plain",
+      "imageMeasured": "Maps/purgethefoevspriorityassetsb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Purge the Foe vs Priority Assets",
+      "homeDisposition": "Priority Assets",
+      "oppDisposition": "Purge the Foe",
+      "imagePlain": "Maps/purgethefoevspriorityassetsc-plain",
+      "imageMeasured": "Maps/purgethefoevspriorityassetsc-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Priority Assets vs Reconnaissance",
+      "homeDisposition": "Priority Assets",
+      "oppDisposition": "Reconnaissance",
+      "imagePlain": "Maps/priorityassetsvsreconnaissancea-plain",
+      "imageMeasured": "Maps/priorityassetsvsreconnaissancea-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Priority Assets vs Reconnaissance",
+      "homeDisposition": "Priority Assets",
+      "oppDisposition": "Reconnaissance",
+      "imagePlain": "Maps/priorityassetsvsreconnaissanceb-plain",
+      "imageMeasured": "Maps/priorityassetsvsreconnaissanceb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Priority Assets vs Reconnaissance",
+      "homeDisposition": "Priority Assets",
+      "oppDisposition": "Reconnaissance",
+      "imagePlain": "Maps/priorityassetsvsreconnaissancec-plain",
+      "imageMeasured": "Maps/priorityassetsvsreconnaissancec-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Priority Assets Mirror",
+      "homeDisposition": "Priority Assets",
+      "oppDisposition": "Priority Assets",
+      "imagePlain": "Maps/priorityassetsmirrora-plain",
+      "imageMeasured": "Maps/priorityassetsmirrora-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Priority Assets Mirror",
+      "homeDisposition": "Priority Assets",
+      "oppDisposition": "Priority Assets",
+      "imagePlain": "Maps/priorityassetsmirrorb-plain",
+      "imageMeasured": "Maps/priorityassetsmirrorb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Priority Assets Mirror",
+      "homeDisposition": "Priority Assets",
+      "oppDisposition": "Priority Assets",
+      "imagePlain": "Maps/priorityassetsmirrorc-plain",
+      "imageMeasured": "Maps/priorityassetsmirrorc-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Disruption vs Priority Assets",
+      "homeDisposition": "Priority Assets",
+      "oppDisposition": "Disruption",
+      "imagePlain": "Maps/disruptionvspriorityassetsa-plain",
+      "imageMeasured": "Maps/disruptionvspriorityassetsa-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Disruption vs Priority Assets",
+      "homeDisposition": "Priority Assets",
+      "oppDisposition": "Disruption",
+      "imagePlain": "Maps/disruptionvspriorityassetsb-plain",
+      "imageMeasured": "Maps/disruptionvspriorityassetsb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Disruption vs Priority Assets",
+      "homeDisposition": "Priority Assets",
+      "oppDisposition": "Disruption",
+      "imagePlain": "Maps/disruptionvspriorityassetsc-plain",
+      "imageMeasured": "Maps/disruptionvspriorityassetsc-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Take and Hold vs Disruption",
+      "homeDisposition": "Disruption",
+      "oppDisposition": "Take and Hold",
+      "imagePlain": "Maps/takeandholdvsdisruptiona-plain",
+      "imageMeasured": "Maps/takeandholdvsdisruptiona-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Take and Hold vs Disruption",
+      "homeDisposition": "Disruption",
+      "oppDisposition": "Take and Hold",
+      "imagePlain": "Maps/takeandholdvsdisruptionb-plain",
+      "imageMeasured": "Maps/takeandholdvsdisruptionb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Take and Hold vs Disruption",
+      "homeDisposition": "Disruption",
+      "oppDisposition": "Take and Hold",
+      "imagePlain": "Maps/takeandholdvsdisruptionc-plain",
+      "imageMeasured": "Maps/takeandholdvsdisruptionc-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Disruption vs Purge the Foe",
+      "homeDisposition": "Disruption",
+      "oppDisposition": "Purge the Foe",
+      "imagePlain": "Maps/disruptionvspurgethefoea-plain",
+      "imageMeasured": "Maps/disruptionvspurgethefoea-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Disruption vs Purge the Foe",
+      "homeDisposition": "Disruption",
+      "oppDisposition": "Purge the Foe",
+      "imagePlain": "Maps/disruptionvspurgethefoeb-plain",
+      "imageMeasured": "Maps/disruptionvspurgethefoeb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Disruption vs Purge the Foe",
+      "homeDisposition": "Disruption",
+      "oppDisposition": "Purge the Foe",
+      "imagePlain": "Maps/disruptionvspurgethefoec-plain",
+      "imageMeasured": "Maps/disruptionvspurgethefoec-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Disruption vs Reconnaissance",
+      "homeDisposition": "Disruption",
+      "oppDisposition": "Reconnaissance",
+      "imagePlain": "Maps/disruptionvsreconnaissancea-plain",
+      "imageMeasured": "Maps/disruptionvsreconnaissancea-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Disruption vs Reconnaissance",
+      "homeDisposition": "Disruption",
+      "oppDisposition": "Reconnaissance",
+      "imagePlain": "Maps/disruptionvsreconnaissanceb-plain",
+      "imageMeasured": "Maps/disruptionvsreconnaissanceb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Disruption vs Reconnaissance",
+      "homeDisposition": "Disruption",
+      "oppDisposition": "Reconnaissance",
+      "imagePlain": "Maps/disruptionvsreconnaissancec-plain",
+      "imageMeasured": "Maps/disruptionvsreconnaissancec-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Disruption vs Priority Assets",
+      "homeDisposition": "Disruption",
+      "oppDisposition": "Priority Assets",
+      "imagePlain": "Maps/disruptionvspriorityassetsa-plain",
+      "imageMeasured": "Maps/disruptionvspriorityassetsa-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Disruption vs Priority Assets",
+      "homeDisposition": "Disruption",
+      "oppDisposition": "Priority Assets",
+      "imagePlain": "Maps/disruptionvspriorityassetsb-plain",
+      "imageMeasured": "Maps/disruptionvspriorityassetsb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Disruption vs Priority Assets",
+      "homeDisposition": "Disruption",
+      "oppDisposition": "Priority Assets",
+      "imagePlain": "Maps/disruptionvspriorityassetsc-plain",
+      "imageMeasured": "Maps/disruptionvspriorityassetsc-measured"
+    },
+    {
+      "name": "A",
+      "matchup": "Disruption Mirror",
+      "homeDisposition": "Disruption",
+      "oppDisposition": "Disruption",
+      "imagePlain": "Maps/disruptionmirrora-plain",
+      "imageMeasured": "Maps/disruptionmirrora-measured"
+    },
+    {
+      "name": "B",
+      "matchup": "Disruption Mirror",
+      "homeDisposition": "Disruption",
+      "oppDisposition": "Disruption",
+      "imagePlain": "Maps/disruptionmirrorb-plain",
+      "imageMeasured": "Maps/disruptionmirrorb-measured"
+    },
+    {
+      "name": "C",
+      "matchup": "Disruption Mirror",
+      "homeDisposition": "Disruption",
+      "oppDisposition": "Disruption",
+      "imagePlain": "Maps/disruptionmirrorc-plain",
+      "imageMeasured": "Maps/disruptionmirrorc-measured"
+    }
+  ],
+  "sequence": [
+    {
+      "step": 0,
+      "title": "Before the event",
+      "text": [
+        "Before attending a Warhammer Event, each player completes the following step:"
+      ]
+    },
+    {
+      "step": 1,
+      "title": "Muster Armies",
+      "text": [
+        "Muster armies as described in the Warhammer 40,000 app, with the following exception: once they have mustered their army, a player selects one Force Disposition card available to them and records that on their roster.",
+        "A Warhammer Event battle is then waged by completing the remaining steps below:"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Determine Mission",
+      "text": [
+        "Each player finds their opponent's Force Disposition symbol on their Force Disposition card. The Primary Mission that is listed below that symbol is that player's Primary Mission, which describes how to score VP."
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Determine A Layout",
+      "text": [
+        "Each combination of Primary Missions has three recommended layouts, labelled A, B and C. These can be found in the Warhammer 40,000 app and at the end of this companion. As directed by the Warhammer Event organiser, the players either use the layout specified or randomly determine which of these layouts to use."
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Create The Battlefield",
+      "text": [
+        "Missions are played on rectangular battlefields 44\" by 60\" in size. Players set up the terrain areas as shown in the selected layout, then set up terrain features on those terrain areas as shown in the selected layout."
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Determine Attacker And Defender",
+      "text": [
+        "Players look at the selected layout and agree which edges of the battlefield the players have set up correspond with the Attacker's and Defender's battlefield edges labelled on the card. Roll off: the winner decides who will be the Attacker and who will be the Defender."
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Select Secondary Missions",
+      "text": [
+        "Secondary Mission cards detail additional ways to score VP. Players now secretly note down whether they will use Tactical or Fixed Secondary Missions. If using Fixed Missions, they also note down which two Fixed Missions they will use (see below). Players then reveal these decisions.",
+        "Fixed Missions",
+        "Fixed Missions are those marked with the symbol shown on the left. If you are using Fixed Missions, display your selected Fixed Mission cards face-up. Fixed Missions cannot be discarded and are active for you throughout the battle.",
+        "Tactical Missions",
+        "If you are using Tactical Missions, shuffle your Secondary Mission deck face-down.",
+        "At the start of your Command phase, draw two Secondary Missions face-up from your Secondary Missions deck; these Secondary Missions are active for you.",
+        "(Once per battle) At the end of your Command phase, you can spend 1CP to discard one of your active Secondary Mission cards and draw one new Secondary Mission card.",
+        "Achieving Secondary Missions",
+        "At the end of each player's turn, each player does the following, starting with the player whose turn it is:",
+        "First, if you met the conditions on one or more Secondary Missions, you can gain the VP specified on that card. If you do, and if you are using Tactical Secondary Missions, discard that Secondary Mission - it is achieved.",
+        "Then, if it is your turn and you are using Tactical Secondary Missions, you can discard one or more of your active Secondary Missions. If you do, you gain 1CP."
+      ]
+    },
+    {
+      "step": 7,
+      "title": "Declare Battle Formations",
+      "text": [
+        "Players secretly note down, in order:",
+        "Which of their units will start the battle embarked within which TRANSPORTS.",
+        "Which of their units will start the battle in strategic reserves.",
+        "Players then reveal these decisions."
+      ]
+    },
+    {
+      "step": 8,
+      "title": "Deploy Armies",
+      "text": [
+        "Players take it in turns to set up their units (excluding those in strategic reserves) one at a time, wholly within their deployment zone, starting with the Defender. If you set up a TITANIC unit when it is your turn to set up a unit, skip your next turn to set up a unit. Once you have finished setting up your units, if your opponent has any units that have not been set up, they set up those units."
+      ]
+    },
+    {
+      "step": 9,
+      "title": "Redeploy Units",
+      "text": [
+        "Some rules let you redeploy certain units after both armies are deployed. Unless otherwise stated, you resolve those rules in this step. Players alternate resolving any such rules, starting with the Attacker. Units placed in strategic reserves in this step do not count towards the combined points value of your strategic reserves units."
+      ]
+    },
+    {
+      "step": 10,
+      "title": "Determine First Turn",
+      "text": [
+        "Roll off: the winner takes the first turn."
+      ]
+    },
+    {
+      "step": 11,
+      "title": "Resolve Pre-battle Rules",
+      "text": [
+        "Players alternate resolving any pre-battle rules units from their army may have, starting with the player who will take the first turn."
+      ]
+    },
+    {
+      "step": 12,
+      "title": "Begin The Battle",
+      "text": [
+        "The first battle round begins."
+      ]
+    },
+    {
+      "step": 13,
+      "title": "End The Battle",
+      "text": [
+        "The battle ends after five battle rounds have been completed. Even if you have no models remaining in your army at the start of your turn, players continue to play out their turns until the battle ends."
+      ]
+    },
+    {
+      "step": 14,
+      "title": "Determine Victor",
+      "text": [
+        "Each player scores 10VP if their army is painted to a Battle Ready standard. At the end of the battle, the player with the most VP is the victor. If the players are tied, the battle is a draw. The maximum VP that can be scored from each source of VP is listed below. Any VP you score in excess of these maximums are ignored.",
+        "PRIMARY MISSION 45VP - Up to 15VP per battle round. SECONDARY MISSIONS 45VP - Up to 15VP per battle round*. BATTLE READY ARMY 10VP. (* In addition, you can gain a maximum of 20VP per Fixed Secondary Mission card.)"
+      ]
+    }
+  ],
+  "vp": {
+    "maxTotal": 100,
+    "primaryMax": 45,
+    "primaryPerRound": 15,
+    "secondaryMax": 45,
+    "secondaryPerRound": 15,
+    "fixedCardCap": 20,
+    "battleReady": 10
+  }
+}

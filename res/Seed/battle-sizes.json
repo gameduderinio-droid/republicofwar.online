@@ -1,0 +1,20 @@
+[
+ {
+  "points": 1000,
+  "detachmentPoints": 2,
+  "enhancementLimit": 2,
+  "unitLimit": 2
+ },
+ {
+  "points": 2000,
+  "detachmentPoints": 3,
+  "enhancementLimit": 4,
+  "unitLimit": 3
+ },
+ {
+  "points": 3000,
+  "detachmentPoints": 4,
+  "enhancementLimit": 6,
+  "unitLimit": 4
+ }
+]
